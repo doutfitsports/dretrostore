@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doutfit Sports | Retro Jerseys</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header >
+  <div class="logo">
+   <img src="images/logo-1.png" alt="Doutfit Sports">
+  </div>
+  <h1>DOUTFIT RETRO STORE</h1>
+  <p class="tagline">Retro |Club | Legends Jerseys</p>
+    <p class="tagline">Delivery anywhere</p>
+  <button class="cart-btn" onclick="openCart()">🛒 Cart</button>
+</header>
+
+<div class="tabs">
+  <button class="tab active" id="fullTab">Full Sleeve</button>
+  <button class="tab" id="halfTab">Collar Half/Five Sleeve</button>
+   <button class="tab" id="halfTab">Five Sleeve</button>
+    <button class="tab" id="halfTab">Half Sleeve</button>
+	<button class="tab" id="halfTab">Sleeveless</button>
+</div>
+
+<div id="full" class="products"></div>
+<div id="half" class="products hidden"></div>
+
+<!-- CART -->
+<div id="cartModal" class="cart-modal">
+  <div class="cart-box">
+    <h2>🛒 Your Cart</h2>
+    <p class="cart-subtitle">Almost there! Review your classics 👕</p>
+
+    <div id="cartItems" class="cart-items"></div>
+
+    <div class="cart-form">
+	<label>
+    Your Name <span class="required">*</span>
+  </label>
+      <input type="text" id="name" placeholder="Your Name">
+	  <label>
+    Mobile Number <span class="required">*</span>
+  </label>
+      <input type="tel" id="mobile" placeholder="Mobile Number">
+    </div>
+
+    <button class="checkout" onclick="checkout()">Order via WhatsApp</button>
+    <button class="close" onclick="closeCart()">Continue Shopping</button>
+  </div>
+</div>
+
+<footer class="footer">
+  <h3>DOUTFIT SPORTS</h3>
+  <p>📍 Kohinoor, Malappuram – 673636</p>
+  <p>📞 8606905969</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
