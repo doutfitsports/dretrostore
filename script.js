@@ -32,8 +32,16 @@ const productsByCategory = {
 
   half: [
     {
-      name: "Retro Street",
-      images: ["images/full1_1.jpg", "images/full1_2.jpg"]
+      name: "RONALDINHO AC MILAN",
+      images: ["images/halfsleeve/C01-01.jpg", "images/halfsleeve/C01-02.jpg"]
+    },
+	{
+      name: "MESSI FC BARCELONA",
+      images: ["images/halfsleeve/C02-01.jpg", "images/halfsleeve/C02-02.jpg"]
+    },
+	{
+      name: "RONALDO MANCHESTER",
+      images: ["images/halfsleeve/C03-01.jpg", "images/halfsleeve/C03-02.jpg"]
     }
   ],
 
