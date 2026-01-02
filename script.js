@@ -74,7 +74,7 @@ function renderCategory(categoryKey) {
     container.innerHTML += `
       <div class="card">
         <div class="slider" data-index="0" data-images='${JSON.stringify(p.images)}'>
-          <img src="${p.images[0]}">
+<img src="${p.images[0]}" onclick="openImageZoom(this.src)">
           <button class="arrow left" onclick="slide(this,-1)">❮</button>
           <button class="arrow right" onclick="slide(this,1)">❯</button>
         </div>
@@ -94,6 +94,28 @@ function renderCategory(categoryKey) {
     `;
   });
 }
+
+function openImageZoom(src) {
+  const modal = document.getElementById("imageZoomModal");
+  const img = document.getElementById("zoomedImage");
+
+  img.src = src;
+  modal.style.display = "flex";
+}
+
+function closeImageZoom() {
+  const modal = document.getElementById("imageZoomModal");
+  modal.style.display = "none";
+}
+
+/* Close when clicking outside image */
+document.getElementById("imageZoomModal").addEventListener("click", function(e) {
+  if (e.target.id === "imageZoomModal") {
+    closeImageZoom();
+  }
+});
+
+
 document.querySelectorAll(".tab").forEach(tab => {
   tab.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));

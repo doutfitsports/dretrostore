@@ -286,3 +286,39 @@ header {
   color: crimson;
   font-weight: bold;
 }
+/* ===== IMAGE ZOOM MODAL ===== */
+.image-zoom-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-zoom-modal img {
+  max-width: 90%;
+  max-height: 85%;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(212,175,55,0.4);
+}
+
+/* Close button */
+.zoom-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  color: #d4af37;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Mobile adjustment */
+@media (max-width: 600px) {
+  .image-zoom-modal img {
+    max-width: 95%;
+    max-height: 80%;
+  }
+}
