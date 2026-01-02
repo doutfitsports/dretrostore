@@ -19,15 +19,14 @@
 </header>
 
 <div class="tabs">
-  <button class="tab active" id="fullTab">Full Sleeve</button>
-  <button class="tab" id="halfTab">Collar Half/Five Sleeve</button>
-   <button class="tab" id="halfTab">Five Sleeve</button>
-    <button class="tab" id="halfTab">Half Sleeve</button>
-	<button class="tab" id="halfTab">Sleeveless</button>
+  <button class="tab active" data-category="full">Full Sleeve</button>
+  <button class="tab" data-category="half">Half Sleeve</button>
+  <button class="tab" data-category="collar">Collar Half/Five</button>
+  <button class="tab" data-category="five">Five Sleeve</button>
+  <button class="tab" data-category="sleeveless">Sleeveless</button>
 </div>
 
-<div id="full" class="products"></div>
-<div id="half" class="products hidden"></div>
+<div id="products" class="products"></div>
 
 <!-- CART -->
 <div id="cartModal" class="cart-modal">

@@ -1,33 +1,77 @@
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 /* PRODUCTS */
-const fullSleeve = [
-  { name:"Classic 90s Home", images:["images/full1_1.jpg","images/full1_2.jpg","images/full1_3.jpg"] },
-  { name:"Retro Away Kit", images:["images/full1_1.jpg","images/full1_2.jpg"] },
-    { name:"Classic 90s Home", images:["images/full1_1.jpg","images/full1_2.jpg","images/full1_3.jpg"] },
-  { name:"Retro Away Kit", images:["images/full1_1.jpg","images/full1_2.jpg"] },
-    { name:"Classic 90s Home", images:["images/full1_1.jpg","images/full1_2.jpg","images/full1_3.jpg"] },
-  { name:"Retro Away Kit", images:["images/full1_1.jpg","images/full1_2.jpg"] },
-    { name:"Classic 90s Home", images:["images/full1_1.jpg","images/full1_2.jpg","images/full1_3.jpg"] },
-  { name:"Retro Away Kit", images:["images/full1_1.jpg","images/full1_2.jpg"] }
-];
+const productsByCategory = {
+  full: [
+    {
+      name: "Messi Barcelona",
+      images: ["images/fullsleeve/D01-01.jpg", "images/fullsleeve/D01-02.jpg"]
+    },
+    {
+      name: "Ronaldo Juvantus",
+      images: ["images/fullsleeve/D02-01.jpg", "images/fullsleeve/D02-02.jpg"]
+    },
+	    {
+      name: "Ronaldo Real Madrid",
+ images: ["images/fullsleeve/D03-01.jpg", "images/fullsleeve/D03-02.jpg"]    },
+	    {
+      name: "Messi Barcelona",
+ images: ["images/fullsleeve/D04-01.jpg", "images/fullsleeve/D04-02.jpg"]    },
+	    {
+      name: "Ronaldo Real Madrid",
+ images: ["images/fullsleeve/D05-01.jpg", "images/fullsleeve/D05-02.jpg"]    },
+	    {
+      name: "Sergio Ramos Real Madrid",
+ images: ["images/fullsleeve/D06-01.jpg", "images/fullsleeve/D06-02.jpg"]    },
+	    {
+      name: "Ronaldo Real Madrid",
+ images: ["images/fullsleeve/D07-01.jpg", "images/fullsleeve/D07-02.jpg"]    }
 
-const halfSleeve = [
-  { name:"Retro Street", images:["images/half1_1.jpg","images/half1_2.jpg"] },
-  { name:"90s Fan Jersey", images:["images/half1_1.jpg","images/half1_2.jpg"] },
-    { name:"Retro Street", images:["images/half1_1.jpg","images/half1_2.jpg"] },
-  { name:"90s Fan Jersey", images:["images/half1_1.jpg","images/half1_2.jpg"] },
-    { name:"Retro Street", images:["images/half1_1.jpg","images/half1_2.jpg"] },
-  { name:"90s Fan Jersey", images:["images/half1_1.jpg","images/half1_2.jpg"] }
-];
+	
+  ],
+
+  half: [
+    {
+      name: "Retro Street",
+      images: ["images/full1_1.jpg", "images/full1_2.jpg"]
+    }
+  ],
+
+  collar: [
+    {
+      name: "Vintage Collar Classic",
+      images: ["images/full1_1.jpg", "images/full1_2.jpg"]
+    }
+  ],
+
+  five: [
+    {
+      name: "Legend Five Sleeve",
+      images: ["images/full1_1.jpg", "images/full1_2.jpg"]
+    }
+  ],
+
+  sleeveless: [
+    {
+      name: "Basketball Bulls",
+      images: ["images/sleeveless/A01-01.jpg", "images/sleeveless/A01-02.jpg"]
+    },
+	    {
+      name: "Basketball Lakers",
+      images: ["images/sleeveless/A02-01.jpg", "images/sleeveless/A02-02.jpg"]
+    }
+  ]
+};
 
 /* RENDER PRODUCTS */
-function renderProducts(list, type, id) {
-  const div = document.getElementById(id);
-  div.innerHTML = "";
+function renderCategory(categoryKey) {
+  const container = document.getElementById("products");
+  container.innerHTML = "";
 
-  list.forEach(p => {
-    div.innerHTML += `
+  const products = productsByCategory[categoryKey];
+
+  products.forEach(p => {
+    container.innerHTML += `
       <div class="card">
         <div class="slider" data-index="0" data-images='${JSON.stringify(p.images)}'>
           <img src="${p.images[0]}">
@@ -36,20 +80,30 @@ function renderProducts(list, type, id) {
         </div>
 
         <h4>${p.name}</h4>
-        <p>${type}</p>
+        <p>${categoryKey.toUpperCase()}</p>
 
         <select>
           <option>S</option><option>M</option><option>L</option>
           <option>XL</option><option>XXL</option>
         </select>
 
-        <button onclick="addToCart('${p.name}','${type}',this.previousElementSibling.value)">
+        <button onclick="addToCart('${p.name}','${categoryKey}',this.previousElementSibling.value)">
           Add to Cart
         </button>
       </div>
     `;
   });
 }
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+
+    const category = tab.dataset.category;
+    renderCategory(category);
+  });
+});
+
 
 /* SLIDE FUNCTION */
 function slide(btn, dir) {
@@ -66,7 +120,7 @@ function slide(btn, dir) {
 }
 
 /* INIT */
-renderProducts(fullSleeve,"Full Sleeve","full");
+renderCategory("full");
 
 /* TABS */
 document.getElementById("fullTab").onclick = () => {
