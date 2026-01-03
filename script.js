@@ -54,9 +54,26 @@ const productsByCategory = {
 
   five: [
     {
-      name: "Legend Five Sleeve",
-      images: ["images/full1_1.jpg", "images/full1_2.jpg"]
+      name: "RONALDINHO PSG",
+      images: ["images/fivesleeve/B01-01.jpg", "images/fivesleeve/B01-02.jpg"]
+    },
+	    {
+      name: "RIVALDO FC BARCELONA",
+      images: ["images/fivesleeve/B02-01.jpg", "images/fivesleeve/B02-02.jpg"]
+    },
+	    {
+      name: "IBRAHIMOVIC",
+      images: ["images/fivesleeve/B03-01.jpg", "images/fivesleeve/B03-02.jpg"]
+    },
+	    {
+      name: "IBRAHIMOVIC",
+      images: ["images/fivesleeve/B04-01.jpg", "images/fivesleeve/B04-02.jpg"]
+    },
+	    {
+      name: "MESSI",
+      images: ["images/fivesleeve/B05-01.jpg", "images/fivesleeve/B05-02.jpg"]
     }
+	
   ],
 
   sleeveless: [
