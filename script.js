@@ -323,3 +323,6 @@ function checkout(){
   cart.forEach((c,i)=>msg+=`${i+1}. ${c.name} - ${c.size}%0A`);
   window.open(`https://wa.me/919947118668?text=${msg}`,"_blank");
 }
+function closeCart() {
+  document.getElementById("cartModal").style.display = "none";
+}

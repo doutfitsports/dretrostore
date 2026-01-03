@@ -183,6 +183,7 @@ header {
   border: 2px solid #d4af37;
   box-shadow: 0 0 30px rgba(212,175,55,0.25);
   animation: popIn 0.3s ease;
+    position: relative; 
 }
 
 /* Animation */
@@ -200,6 +201,7 @@ header {
 .cart-box h2 {
   text-align: center;
   margin-bottom: 4px;
+  position: relative; /
 }
 
 .cart-subtitle {
@@ -321,4 +323,22 @@ header {
     max-width: 95%;
     max-height: 80%;
   }
+}
+/* CLOSE (X) BUTTON */
+.cart-close {
+   position: absolute;
+  top: 12px;
+  right: 12px;          /* ✅ RIGHT SIDE */
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #d4af37;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.cart-close:hover {
+  color: crimson;
+  transform: scale(1.15);
 }
