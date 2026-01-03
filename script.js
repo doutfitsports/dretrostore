@@ -47,8 +47,96 @@ const productsByCategory = {
 
   collar: [
     {
-      name: "Vintage Collar Classic",
-      images: ["images/full1_1.jpg", "images/full1_2.jpg"]
+      name: "ZIDAN REAL MADRID",
+      images: ["images/collarNorFsleeve/A01-01.jpg", "images/collarNorFsleeve/A01-02.jpg", "images/collarNorFsleeve/A01-03.jpg"]
+    },
+	  {
+      name: "BEKHAM ENGLAND",
+      images: ["images/collarNorFsleeve/A02-01.jpg", "images/collarNorFsleeve/A02-02.jpg", "images/collarNorFsleeve/A02-03.jpg"]
+    },
+	  {
+      name: "BEKHAM ENGLAND",
+      images: ["images/collarNorFsleeve/A03-01.jpg", "images/collarNorFsleeve/A03-02.jpg", "images/collarNorFsleeve/A03-03.jpg"]
+    },
+	  {
+      name: "R.CARLOS INTER MILAN",
+      images: ["images/collarNorFsleeve/A04-01.jpg", "images/collarNorFsleeve/A04-02.jpg", "images/collarNorFsleeve/A04-03.jpg"]
+    },
+	  {
+      name: "ZIDANE FRANCE",
+      images: ["images/collarNorFsleeve/A05-01.jpg", "images/collarNorFsleeve/A05-02.jpg", "images/collarNorFsleeve/A05-03.jpg"]
+    },
+	  {
+      name: "BUFFON PARMA FC",
+      images: ["images/collarNorFsleeve/A06-01.jpg", "images/collarNorFsleeve/A06-02.jpg", "images/collarNorFsleeve/A06-03.jpg"]
+    },
+	  {
+      name: "MARADONA BOCA JUNIORS",
+      images: ["images/collarNorFsleeve/A07-01.jpg", "images/collarNorFsleeve/A07-02.jpg", "images/collarNorFsleeve/A07-03.jpg"]
+    },
+	  {
+      name: "RONALDO BRAZIL",
+      images: ["images/collarNorFsleeve/A08-01.jpg", "images/collarNorFsleeve/A08-02.jpg","images/collarNorFsleeve/A08-03.jpg"]
+    },
+	  {
+      name: "RONALDO MANCHESTER UNITED",
+      images: ["images/collarNorFsleeve/A09-01.jpg", "images/collarNorFsleeve/A09-02.jpg", "images/collarNorFsleeve/A09-03.jpg"]
+    },
+	  {
+      name: "CRUYFF AJAX",
+      images: ["images/collarNorFsleeve/A10-01.jpg", "images/collarNorFsleeve/A10-02.jpg","images/collarNorFsleeve/A10-03.jpg"]
+    },
+	  {
+      name: "MALDINI ITALY",
+      images: ["images/collarNorFsleeve/A11-01.jpg", "images/collarNorFsleeve/A11-02.jpg","images/collarNorFsleeve/A11-03.jpg"]
+    },
+	  {
+      name: "BALLACK GERMANY",
+      images: ["images/collarNorFsleeve/A12-01.jpg", "images/collarNorFsleeve/A12-02.jpg","images/collarNorFsleeve/A12-03.jpg"]
+    },
+	  {
+      name: "ZIDANE",
+      images: ["images/collarNorFsleeve/A13-01.jpg", "images/collarNorFsleeve/A13-02.jpg"]
+    },
+	  {
+      name: "F.TORRES",
+      images: ["images/collarNorFsleeve/A14-01.jpg", "images/collarNorFsleeve/A14-02.jpg"]
+    },
+	  {
+      name: "R.CARLOS",
+      images: ["images/collarNorFsleeve/A15-01.jpg", "images/collarNorFsleeve/A15-02.jpg"]
+    },
+	  {
+      name: "ZIDANE",
+      images: ["images/collarNorFsleeve/A16-01.jpg", "images/collarNorFsleeve/A16-02.jpg"]
+    },
+	  {
+      name: "BEKHAM",
+      images: ["images/collarNorFsleeve/A17-01.jpg", "images/collarNorFsleeve/A17-02.jpg"]
+    },
+	  {
+      name: "MALDINI",
+      images: ["images/collarNorFsleeve/A18-01.jpg", "images/collarNorFsleeve/A18-02.jpg"]
+    },
+	  {
+      name: "RONALDO",
+      images: ["images/collarNorFsleeve/A19-01.jpg", "images/collarNorFsleeve/A19-02.jpg"]
+    },
+	  {
+      name: "MULLER",
+      images: ["images/collarNorFsleeve/A20-01.jpg", "images/collarNorFsleeve/A20-02.jpg"]
+    },
+	  {
+      name: "BECKHAM",
+      images: ["images/collarNorFsleeve/A21-01.jpg", "images/collarNorFsleeve/A22-02.jpg"]
+    },
+	  {
+      name: "MALDINI",
+      images: ["images/collarNorFsleeve/A22-01.jpg", "images/collarNorFsleeve/A22-02.jpg"]
+    },
+	  {
+      name: "F.TORRES",
+      images: ["images/collarNorFsleeve/A23-01.jpg", "images/collarNorFsleeve/A23-02.jpg"]
     }
   ],
 
