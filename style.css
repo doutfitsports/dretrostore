@@ -368,3 +368,20 @@ header {
   color: #fff;
   border-radius: 12px;
 }
+.cart-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cart-icon {
+  font-size: 22px;
+}
+.jersey-strip {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 18px;
+  letter-spacing: 5px;
+  opacity: 0.8;
+}

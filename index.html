@@ -35,7 +35,11 @@
   <div class="cart-box">
       <button class="cart-close" onclick="closeCart()">✕</button>
   <!-- CLOSE BUTTON -->
-    <h2>🛒 Your Cart</h2>
+     <div class="cart-header">
+      <span class="cart-icon">⚽</span>
+      <h2>🛒 Your Cart</h2>
+      <span class="cart-icon">👕</span>
+    </div>
     <p class="cart-subtitle">Info : Add your selected jersey to the cart → Open the cart → Click “Order through WhatsApp”</p>
 
     <div id="cartItems" class="cart-items"></div>
@@ -50,7 +54,9 @@
   </label>
       <input type="tel" id="mobile" placeholder="Mobile Number">
     </div>
-
+<div class="jersey-strip">
+      ⚽ 👕 ⚽ 👕 ⚽
+    </div>
     <button class="checkout" onclick="checkout()">Order via WhatsApp</button>
     <button class="close" onclick="closeCart()">Continue Shopping</button>
   </div>
