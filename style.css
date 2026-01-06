@@ -40,6 +40,7 @@ header {
     height: auto;
     margin-bottom: 5px;
     margin-left: 20px;
+	BORDER-RADIUS: 52PX;
 }
 .tagline { color: #ffffff; }
 
@@ -341,4 +342,29 @@ header {
 .cart-close:hover {
   color: crimson;
   transform: scale(1.15);
+}
+.free-delivery {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ff9800, #ffcc00);
+  color: #000;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 1px;
+  animation: pulse 1.5s infinite;
+}
+
+.free-delivery span {
+  color: #d80000;
+}
+.price-badge {
+  #margin-left: 6px;
+  #padding: 2px 6px;
+  font-size: 10px;
+  font-weight: 800;
+  background: #e60000;
+  color: #fff;
+  border-radius: 12px;
 }
