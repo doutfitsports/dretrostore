@@ -548,6 +548,7 @@ renderCategory("full");
 
 window.onload = function () {
   document.getElementById("cartModal").style.display = "none";
+  document.getElementById("sizeChartModal").style.display = "none";
 };
 
 // Show info modal on page load (once)
@@ -561,3 +562,17 @@ function closeInfoModal() {
   document.getElementById("infoModal").style.display = "none";
   localStorage.setItem("infoSeen", "yes");
 }
+function openSizeChart() {
+  document.getElementById("sizeChartModal").style.display = "flex";
+}
+
+function closeSizeChart() {
+  document.getElementById("sizeChartModal").style.display = "none";
+}
+
+/* Close when clicking outside */
+document.getElementById("sizeChartModal").addEventListener("click", function(e){
+  if(e.target.id === "sizeChartModal"){
+    closeSizeChart();
+  }
+});

@@ -554,3 +554,89 @@ header {
   filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));
   BORDER-RADIUS: 52PX;
 }
+.size-btn {
+  background: #111;
+  color: #ffcc00;
+  border: 1px solid #ffcc00;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 8px;
+}
+
+/* MODAL BACKGROUND */
+.size-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+/* MODAL BOX */
+.size-box {
+  background: #fff;
+  max-width: 90%;
+  max-height: 90%;
+  padding: 10px;
+  border-radius: 12px;
+  position: relative;
+  overflow: auto;
+}
+
+.size-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* CLOSE */
+.size-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.size-title {
+  text-align: center;
+  margin: 5px 0 12px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #ffcc00;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #ff9800, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.size-note {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgba(255, 204, 0, 0.15);
+  color: #000;
+}
+
+.size-note strong {
+  color: #d60000;
+}
+
+.size-note span {
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+  color: #333;
+}
