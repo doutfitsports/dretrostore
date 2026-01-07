@@ -449,3 +449,108 @@ header {
   font-size: 12px;
   opacity: 0.8;
 }
+
+/* MODAL BACKGROUND */
+.info-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+/* MODAL BOX */
+.info-box {
+  background: linear-gradient(180deg, #111, #1b1b1b);
+  color: #fff;
+  width: 90%;
+  max-width: 380px;
+  padding: 22px 18px;
+  border-radius: 16px;
+  text-align: center;
+  position: relative;
+  animation: popIn 0.4s ease;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.info-box h2 {
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* FREE DELIVERY */
+.info-highlight {
+  background: linear-gradient(90deg, #ff9800, #ffcc00);
+  color: #000;
+  font-weight: 900;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+.info-highlight span {
+  color: #d60000;
+}
+
+/* POINTS */
+.info-points {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.info-points li {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+/* NOTE */
+.info-note {
+  font-size: 13px;
+  opacity: 0.9;
+  margin: 12px 0;
+}
+
+/* BUTTON */
+.info-btn {
+  background: #25D366;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  font-weight: 800;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* CLOSE BUTTON */
+.info-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.info-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.info-logo img {
+  height: 60px;
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));
+  BORDER-RADIUS: 52PX;
+}

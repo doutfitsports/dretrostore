@@ -31,7 +31,66 @@
 <div id="products" class="products"></div>
 
 <!-- CART -->
-<div id="cartModal" class="cart-modal">
+
+<div id="imageZoomModal" class="image-zoom-modal">
+  <span class="zoom-close" onclick="closeImageZoom()">✕</span>
+  <img id="zoomedImage" src="" alt="Product Image">
+</div>
+
+<footer class="footer">
+  <h3>DOUTFIT SPORTS</h3>
+  <p>📍 Kohinoor, Malappuram – 673635</p>
+   <p>📞 <a href="tel:8606905969">8606905969</a></p>
+
+  <!-- SOCIAL LINKS -->
+  <div class="footer-social">
+    <a href="https://wa.me/918606905969" target="_blank" class="social-btn whatsapp">
+      💬 WhatsApp
+    </a>
+
+    <a href="https://instagram.com/d_outfit_hub" target="_blank" class="social-btn instagram">
+      📸 Instagram
+    </a>
+  </div>
+
+  <p class="footer-note">Retro • Club • Legends Jerseys</p>
+</footer>
+
+<script src="script.js"></script>
+<div id="infoModal" class="info-modal">
+  <div class="info-box">
+
+    <button class="info-close" onclick="closeInfoModal()">✕</button>
+	 <!-- 🏷️ LOGO -->
+    <div class="info-logo">
+      <img src="images/logo-1.png" alt="Doutfit Sports Logo">
+    </div>
+
+
+    <h2>⚽ DOUTFIT RETRO STORE ⚽</h2>
+
+    <p class="info-highlight">
+      🚚 <span>FREE DELIVERY</span> ACROSS KERALA
+    </p>
+
+    <ul class="info-points">
+      <li>👕 Retro • Club • Legends Jerseys</li>
+      <li>📦 Quality Checked Products</li>
+      <li>📲 Order Easily via WhatsApp</li>
+      <li>💯 Trusted Jersey Store</li>
+    </ul>
+
+    <p class="info-note">
+      👉 Select your jersey → Add to cart → Order through WhatsApp
+    </p>
+
+    <button class="info-btn" onclick="closeInfoModal()">
+      🔥 Start Shopping
+    </button>
+
+  </div>
+</div>
+<div id="cartModal" class="cart-modal" >
   <div class="cart-box">
       <button class="cart-close" onclick="closeCart()">✕</button>
   <!-- CLOSE BUTTON -->
@@ -61,31 +120,6 @@
     <button class="close" onclick="closeCart()">Continue Shopping</button>
   </div>
 </div>
-<div id="imageZoomModal" class="image-zoom-modal">
-  <span class="zoom-close" onclick="closeImageZoom()">✕</span>
-  <img id="zoomedImage" src="" alt="Product Image">
-</div>
-
-<footer class="footer">
-  <h3>DOUTFIT SPORTS</h3>
-  <p>📍 Kohinoor, Malappuram – 673635</p>
-   <p>📞 <a href="tel:8606905969">8606905969</a></p>
-
-  <!-- SOCIAL LINKS -->
-  <div class="footer-social">
-    <a href="https://wa.me/918606905969" target="_blank" class="social-btn whatsapp">
-      💬 WhatsApp
-    </a>
-
-    <a href="https://instagram.com/d_outfit_hub" target="_blank" class="social-btn instagram">
-      📸 Instagram
-    </a>
-  </div>
-
-  <p class="footer-note">Retro • Club • Legends Jerseys</p>
-</footer>
-
-<script src="script.js"></script>
 <!-- IMAGE ZOOM MODAL -->
 </body>
 </html>

@@ -545,3 +545,19 @@ function checkout() {
  * INIT
  ***********************/
 renderCategory("full");
+
+window.onload = function () {
+  document.getElementById("cartModal").style.display = "none";
+};
+
+// Show info modal on page load (once)
+window.addEventListener("load", () => {
+  if (!localStorage.getItem("infoSeen")) {
+    document.getElementById("infoModal").style.display = "flex";
+  }
+});
+
+function closeInfoModal() {
+  document.getElementById("infoModal").style.display = "none";
+  localStorage.setItem("infoSeen", "yes");
+}
