@@ -686,7 +686,7 @@ function checkout() {
 /***********************
  * INIT
  ***********************/
-renderCategory("full");
+renderCategory("collar");
 
 window.onload = function () {
   document.getElementById("cartModal").style.display = "none";
