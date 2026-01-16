@@ -689,7 +689,7 @@ msg += `
 🔥 Thank you for choosing *DOUTFIT SPORTS*!`;
 
   window.open(
-    `https://wa.me/919947118668?text=${msg}`,
+    `https://wa.me/918056065969?text=${msg}`,
     "_blank"
   );
 }
