@@ -341,16 +341,25 @@ sizes: ["S","M","L","XL"] }
       images: ["images/collarNorFsleeve/A34-01.jpg", "images/collarNorFsleeve/A34-02.jpg"],
 	  sizes: ["S","M","L","XL"]
     },
-	,
 	  {
       name: "A35:KROOS GERMANY",
       images: ["images/collarNorFsleeve/A35-01.jpg", "images/collarNorFsleeve/A35-02.jpg"],
 	  sizes: ["S","M","L","XL"]
     },
-	,
 	  {
       name: "A36:F.BECKENBAUER GERMANY 1996",
       images: ["images/collarNorFsleeve/A36-01.jpg", "images/collarNorFsleeve/A36-02.jpg"],
+	  sizes: ["S","M","L","XL"]
+    }
+	,
+	  {
+      name: "A37:M.OWEN LIVERPOOL 93-95",
+      images: ["images/collarNorFsleeve/A37-01.jpg", "images/collarNorFsleeve/A37-02.jpg"],
+	  sizes: ["S","M","L","XL"]
+    },
+	  {
+      name: "A38:L.MESSI Barcelona 1999-2000",
+      images: ["images/collarNorFsleeve/A38-01.jpg", "images/collarNorFsleeve/A38-02.jpg"],
 	  sizes: ["S","M","L","XL"]
     }
   ],
