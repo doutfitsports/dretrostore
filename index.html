@@ -40,6 +40,14 @@
   <button class="tab active" data-category="collar">Collar Half/Five<span class="price-badge">₹399</span></</button>
   <button class="tab" data-category="five">Five Sleeve<span class="price-badge">₹369</span></</button>
 </div>
+<div class="search-bar">
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="🔍 Search by player name or code (e.g. Messi, A12, Ronaldo)"
+    oninput="searchProducts()"
+  />
+</div>
 
 <div id="products" class="products"></div>
 

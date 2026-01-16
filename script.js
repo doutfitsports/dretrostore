@@ -551,7 +551,7 @@ function renderCategory(categoryKey) {
   const container = document.getElementById("products");
   container.innerHTML = "";
 
-  const products = productsByCategory[categoryKey];
+  const products = [...productsByCategory[categoryKey]].reverse();
 
   products.forEach(p => {
     const sizes = p.sizes && p.sizes.length ? p.sizes : DEFAULT_SIZES;
@@ -626,6 +626,7 @@ document.querySelectorAll(".tab").forEach(tab => {
   tab.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
     tab.classList.add("active");
+	  document.getElementById("searchInput").value = "";
     renderCategory(tab.dataset.category);
   });
 });
@@ -738,3 +739,53 @@ document.getElementById("sizeChartModal").addEventListener("click", function(e){
     closeSizeChart();
   }
 });
+let currentCategory = "collar";
+
+function searchProducts() {
+  const keyword = document.getElementById("searchInput").value.toLowerCase();
+  const container = document.getElementById("products");
+  container.innerHTML = "";
+
+  const products = productsByCategory[currentCategory];
+
+  const filtered = products.filter(p =>
+    p.name.toLowerCase().includes(keyword)
+  ).reverse();
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<p style="text-align:center;">❌ No jerseys found</p>`;
+    return;
+  }
+
+  filtered.forEach(p => renderProductCard(p, currentCategory));
+}
+function renderProductCard(p, categoryKey) {
+  const container = document.getElementById("products");
+
+  const sizeOptions = p.sizes
+    .map(s => `<option value="${s}">${s}</option>`)
+    .join("");
+
+  container.innerHTML += `
+    <div class="card">
+      <div class="slider" data-index="0" data-images='${JSON.stringify(p.images)}'>
+        <img src="${p.images[0]}" onclick="openImageZoom(this.src)">
+        <button class="arrow left" onclick="slide(this,-1)">❮</button>
+        <button class="arrow right" onclick="slide(this,1)">❯</button>
+      </div>
+
+      <h4>${p.name}</h4>
+      <p>${categoryKey.toUpperCase()}</p>
+
+      <select class="size-select">
+        ${sizeOptions}
+      </select>
+
+      <button onclick="addToCart(
+        '${p.name}',
+        '${categoryKey}',
+        this.previousElementSibling.value
+      )">Add to Cart</button>
+    </div>
+  `;
+}
