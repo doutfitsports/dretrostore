@@ -33,7 +33,12 @@ header {
   border-bottom: 3px solid #d4af37;
   overflow: hidden;
 }
-
+.logo {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 9999;
+}
 
 .logo img {
     width: 50px;
@@ -41,7 +46,7 @@ header {
     margin-bottom: 5px;
     margin-left: 20px;
 	BORDER-RADIUS: 52PX;
-	    margin-top: -20px;
+	    #margin-top: -20px;
 
 }
 .tagline { color: #ffffff; }
@@ -325,6 +330,10 @@ header {
   .image-zoom-modal img {
     max-width: 95%;
     max-height: 80%;
+  }
+   .logo {
+    top: 8px;
+    left: 8px;
   }
 }
 /* CLOSE (X) BUTTON */
@@ -639,4 +648,39 @@ header {
   font-size: 12px;
   margin-top: 4px;
   color: #333;
+}
+/* ===== FIXED CART BUTTON ===== */
+.fixed-cart {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 9999;
+
+  background: #ffffff;
+  color: #000;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-weight: 800;
+  font-size: 14px;
+  border: none;
+
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.9);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover / Tap Effect */
+.fixed-cart:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 22px rgba(212, 175, 55, 1);
+}
+
+/* Mobile friendly */
+@media (max-width: 600px) {
+  .fixed-cart {
+    top: 10px;
+    right: 10px;
+    padding: 8px 14px;
+    font-size: 13px;
+  }
 }
