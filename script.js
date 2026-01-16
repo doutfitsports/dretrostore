@@ -760,3 +760,33 @@ function searchProducts() {
 
   filtered.forEach(p => renderProductCard(p, currentCategory));
 }
+function renderProductCard(p, categoryKey) {
+  const container = document.getElementById("products");
+
+  const sizeOptions = p.sizes
+    .map(s => `<option value="${s}">${s}</option>`)
+    .join("");
+
+  container.innerHTML += `
+    <div class="card">
+      <div class="slider" data-index="0" data-images='${JSON.stringify(p.images)}'>
+        <img src="${p.images[0]}" onclick="openImageZoom(this.src)">
+        <button class="arrow left" onclick="slide(this,-1)">❮</button>
+        <button class="arrow right" onclick="slide(this,1)">❯</button>
+      </div>
+
+      <h4>${p.name}</h4>
+      <p>${categoryKey.toUpperCase()}</p>
+
+      <select class="size-select">
+        ${sizeOptions}
+      </select>
+
+      <button onclick="addToCart(
+        '${p.name}',
+        '${categoryKey}',
+        this.previousElementSibling.value
+      )">Add to Cart</button>
+    </div>
+  `;
+}
