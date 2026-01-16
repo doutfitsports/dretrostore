@@ -671,11 +671,22 @@ function checkout() {
     return;
   }
 
-  let msg = `DOUTFIT SPORTS ORDER%0AName: ${name}%0AMobile: ${mobile}%0A%0A`;
+  let msg = `🏆 *DOUTFIT SPORTS – RETRO JERSEY ORDER* 🏆%0A
+━━━━━━━━━━━━━━━━%0A
+👤 *Customer Name:* ${name}%0A
+📞 *Mobile Number:* ${mobile}%0A
+━━━━━━━━━━━━━━━━%0A
+🛒 *Selected Jerseys:*%0A`;
 
-  cart.forEach((c, i) => {
-    msg += `${i + 1}. ${c.name} - ${c.size}%0A`;
-  });
+cart.forEach((c, i) => {
+  msg += `⚽ ${i + 1}. *${c.name}*%0A   👕 Size: ${c.size}%0A`;
+});
+
+msg += `
+━━━━━━━━━━━━━━━━%0A
+🚚 *FREE DELIVERY across Kerala*%0A
+🙏 Please confirm availability & proceed with the order.%0A
+🔥 Thank you for choosing *DOUTFIT SPORTS*!`;
 
   window.open(
     `https://wa.me/919947118668?text=${msg}`,
