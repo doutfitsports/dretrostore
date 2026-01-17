@@ -7,25 +7,25 @@ const productsByCategory = {
     {
       name: "D01:Messi Barcelona",
       images: ["images/fullsleeve/D01-01.jpg", "images/fullsleeve/D01-02.jpg"],
-	  sizes: ["S","M","L","XL","XXL"]
+	  sizes: ["S","M","L","XL"]
     },
     {
       name: "D02:Ronaldo Juvantus",
       images: ["images/fullsleeve/D02-01.jpg", "images/fullsleeve/D02-02.jpg"],
-	  sizes: ["S","M","L","XL","XXL"]
+	  sizes: ["S","M","L","XL"]
     },
 	    {
       name: "D03:Ronaldo Real Madrid",
  images: ["images/fullsleeve/D03-01.jpg", "images/fullsleeve/D03-02.jpg"]  ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D04:Messi Barcelona",
  images: ["images/fullsleeve/D04-01.jpg", "images/fullsleeve/D04-02.jpg"] ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D05:Ronaldo Real Madrid",
  images: ["images/fullsleeve/D05-01.jpg", "images/fullsleeve/D05-02.jpg"] ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D06:Sergio Ramos Real Madrid",
  images: ["images/fullsleeve/D06-01.jpg", "images/fullsleeve/D06-02.jpg"]  ,
@@ -33,39 +33,39 @@ sizes: ["S","M","L","XL"] },
 	    {
       name: "D07:Ronaldo Real Madrid",
  images: ["images/fullsleeve/D07-01.jpg", "images/fullsleeve/D07-02.jpg"]   ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D08:C.Ronaldo SPORTING",
  images: ["images/fullsleeve/D08-01.jpg", "images/fullsleeve/D08-02.jpg"]   ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D09:C.Ronaldo MANCHESTER UNITED",
  images: ["images/fullsleeve/D09-01.jpg", "images/fullsleeve/D09-02.jpg"]   ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L"] },
 	    {
       name: "D10:C.Ronaldo Real Madrid",
  images: ["images/fullsleeve/D10-01.jpg", "images/fullsleeve/D10-02.jpg"]   ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D11:OLIVER KHAN",
  images: ["images/fullsleeve/D11-01.jpg", "images/fullsleeve/D11-02.jpg"]   ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D12:ROONEY MACHESTER UNITED",
  images: ["images/fullsleeve/D12-01.jpg", "images/fullsleeve/D12-02.jpg"]   ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D13:F.TORRES",
  images: ["images/fullsleeve/D13-01.jpg", "images/fullsleeve/D13-02.jpg"]   ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D14:D.BECKHAM REAL MADRID",
  images: ["images/fullsleeve/D14-01.jpg", "images/fullsleeve/D14-02.jpg"]   ,
-sizes: ["S","M","L","XL","XXL"] },
+sizes: ["S","M","L","XL"] },
 	    {
       name: "D15:ZIDANE FRANCE",
  images: ["images/fullsleeve/D15-01.jpg", "images/fullsleeve/D15-02.jpg"]   ,
-sizes: ["S","M","L","XL","XXL"] }
+sizes: ["S","M","L","XL"] }
 
 	
   ],
