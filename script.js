@@ -1,4 +1,5 @@
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
+let currentCategory = "collar";
 
 /* PRODUCTS */
 const productsByCategory = {
@@ -580,6 +581,7 @@ sizes: ["S","M","L","XL","XXL"] }
 };
 
 function renderCategory(categoryKey) {
+	currentCategory = categoryKey;
   const container = document.getElementById("products");
   container.innerHTML = "";
 
@@ -772,7 +774,6 @@ document.getElementById("sizeChartModal").addEventListener("click", function(e){
     closeSizeChart();
   }
 });
-let currentCategory = "collar";
 
 function searchProducts() {
   const keyword = document.getElementById("searchInput").value.toLowerCase();
