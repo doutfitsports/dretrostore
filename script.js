@@ -742,7 +742,7 @@ msg += `
 /***********************
  * INIT
  ***********************/
-renderCategory("collar");
+renderCategory("half");
 
 window.onload = function () {
   document.getElementById("cartModal").style.display = "none";
