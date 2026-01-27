@@ -61,7 +61,7 @@ sizes: ["S","M","L","XL"] },
 	    {
       name: "D14:D.BECKHAM REAL MADRID",
  images: ["images/fullsleeve/D14-01.jpg", "images/fullsleeve/D14-02.jpg"]   ,
-sizes: ["S","M","L","XL"] },
+sizes: ["M","L","XL"] },
 	    {
       name: "D15:ZIDANE FRANCE",
  images: ["images/fullsleeve/D15-01.jpg", "images/fullsleeve/D15-02.jpg"]   ,
@@ -352,7 +352,7 @@ sizes: ["S","M","L","XL"] }
 	  {
       name: "A30:BECKHAM ENGLAND",
       images: ["images/collarNorFsleeve/A30-01.jpg", "images/collarNorFsleeve/A30-02.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["M","L","XL"]
     },
 	  {
       name: "A31:BECKHAM MANCHESTER UNITED",
