@@ -352,7 +352,7 @@ sizes: ["S","M","L","XL"] }
 	  {
       name: "A30:BECKHAM ENGLAND",
       images: ["images/collarNorFsleeve/A30-01.jpg", "images/collarNorFsleeve/A30-02.jpg"],
-	  sizes: ["M","L","XL"]
+	  sizes: ["L","XL"]
     },
 	  {
       name: "A31:BECKHAM MANCHESTER UNITED",
