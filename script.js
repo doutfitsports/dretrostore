@@ -729,7 +729,7 @@ cart.forEach((c, i) => {
 
 msg += `
 ━━━━━━━━━━━━━━━━%0A
-🚚 *FREE DELIVERY across Kerala*%0A
+🚚 * DELIVERY across Kerala*%0A
 🙏 Please confirm availability & proceed with the order.%0A
 🔥 Thank you for choosing *DOUTFIT SPORTS*!`;
 
