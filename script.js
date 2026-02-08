@@ -35,11 +35,13 @@ sizes: ["S","M","L","XL"] ,
 sizes: ["S","M","L","XL"],
  meeshoUrl: "https://meesho.com/cristiano-ronaldo-real-madrid-retrovintagelegends-full-sleeve-football-jersey/p/buin7u?_ms=1.2"
  },
-	    // {
-      // name: "D06:Sergio Ramos Real Madrid",
- // images: ["images/fullsleeve/D06-01.jpg", "images/fullsleeve/D06-02.jpg"]  ,
-// sizes: ["S","M","L","XL"]
- // },
+	     {
+       name: "D06:Sergio Ramos Real Madrid",
+  images: ["images/fullsleeve/D06-01.jpg", "images/fullsleeve/D06-02.jpg"]  ,
+ sizes: ["S","M","L","XL"],
+ meeshoUrl: "https://meesho.com/real-madrid-2019-20-sergio-ramos-away-jersey-with-long-sleeves/p/c7y2u8?_ms=1.2"
+
+  },
 	    {
       name: "D07:Ronaldo Real Madrid",
  images: ["images/fullsleeve/D07-01.jpg", "images/fullsleeve/D07-02.jpg"]   ,
@@ -53,11 +55,13 @@ meeshoUrl: "https://meesho.com/real-madrid-cronaldo-embroidery-20172018--jersey/
 sizes: ["S","M","L","XL"],
  meeshoUrl: "https://meesho.com/cristiano-ronaldo-sporting-retrovintagelegends-full-sleeve-football-jersey/p/buekly?_ms=1.2"
  },
-	    // {
-      // name: "D09:C.Ronaldo MANCHESTER UNITED",
- // images: ["images/fullsleeve/D09-01.jpg", "images/fullsleeve/D09-02.jpg"]   ,
-// sizes: ["S","M","L"] 
-// },
+	     {
+       name: "D09:C.Ronaldo MANCHESTER UNITED",
+  images: ["images/fullsleeve/D09-01.jpg", "images/fullsleeve/D09-02.jpg"]   ,
+ sizes: ["S","M","L"],
+meeshoUrl: "https://meesho.com/manchester-united-2002-04-home-long-sleeve-c-ronaldo-football-jersey/p/c7yydi?_ms=1.2"
+ 
+ },
 	    {
       name: "D10:C.Ronaldo Real Madrid",
  images: ["images/fullsleeve/D10-01.jpg", "images/fullsleeve/D10-02.jpg"]   ,
@@ -65,21 +69,27 @@ sizes: ["S","M","L","XL"] ,
 meeshoUrl: "https://meesho.com/cronaldo-real-madrid-dragon-edition-jersey/p/c76bnf?_ms=1.2"
 
 },
-	    // {
-      // name: "D11:OLIVER KHAN",
- // images: ["images/fullsleeve/D11-01.jpg", "images/fullsleeve/D11-02.jpg"]   ,
-// sizes: ["S","M","L","XL"]
- // },
-	    // {
-      // name: "D12:ROONEY MACHESTER UNITED",
- // images: ["images/fullsleeve/D12-01.jpg", "images/fullsleeve/D12-02.jpg"]   ,
-// sizes: ["S","M","L","XL"] 
-// },
-	    // {
-      // name: "D13:F.TORRES",
- // images: ["images/fullsleeve/D13-01.jpg", "images/fullsleeve/D13-02.jpg"]   ,
-// sizes: ["S","M","L","XL"]
- // },
+	     {
+       name: "D11:OLIVER KHAN",
+  images: ["images/fullsleeve/D11-01.jpg", "images/fullsleeve/D11-02.jpg"]   ,
+ sizes: ["S","M","L","XL"],
+ meeshoUrl: "https://meesho.com/chelsea-fc-201112-ftorres-home-long-sleeved-football-jersey/p/c80w92?_ms=1.2"
+
+  },
+	     {
+       name: "D12:ROONEY MACHESTER UNITED",
+  images: ["images/fullsleeve/D12-01.jpg", "images/fullsleeve/D12-02.jpg"]   ,
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/2012-13-manchester-united-rooney-long-sleeve-home-football-shirt/p/c80dqa?_ms=1.2"
+
+ },
+	     {
+       name: "D13:F.TORRES",
+  images: ["images/fullsleeve/D13-01.jpg", "images/fullsleeve/D13-02.jpg"]   ,
+ sizes: ["S","M","L","XL"],
+ meeshoUrl: "https://meesho.com/bayern-munich-2004-05-goalkeeper-jersey--oliver-kahn/p/c7zyb9?_ms=1.2"
+
+  },
 	    {
       name: "D14:D.BECKHAM REAL MADRID",
  images: ["images/fullsleeve/D14-01.jpg", "images/fullsleeve/D14-02.jpg"]   ,
@@ -253,25 +263,26 @@ meeshoUrl: "https://meesho.com/beckham-england-retrovintagelegends-five-sleeve-c
 meeshoUrl: "https://meesho.com/david-beckham-england-retrovintagelegends-five-sleeve-collar-football-jersey/p/buv93h?_ms=1.2"
 
     },
-	  // {
-      // name: "A04:R.CARLOS INTER MILAN",
-      // images: ["images/collarNorFsleeve/A04-01.jpg", "images/collarNorFsleeve/A04-02.jpg", "images/collarNorFsleeve/A04-03.jpg"],
-	  // sizes: ["S","M","L","XL"],
- // meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-full-sleeve-football-jersey/p/bueo6z?_ms=1.2"
-    // },
+	   {
+       name: "A04:R.CARLOS INTER MILAN",
+       images: ["images/collarNorFsleeve/A04-01.jpg", "images/collarNorFsleeve/A04-02.jpg", "images/collarNorFsleeve/A04-03.jpg"],
+	   sizes: ["S","M","L","XL"],
+  meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-full-sleeve-football-jersey/p/bueo6z?_ms=1.2"
+     },
 	  {
       name: "A05:ZIDANE FRANCE",
       images: ["images/collarNorFsleeve/A05-01.jpg", "images/collarNorFsleeve/A05-02.jpg", "images/collarNorFsleeve/A05-03.jpg"],
 	  sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/zidane--france-retrovintagelegends-five-sleeve-collar-football-jersey/p/buv4nr?_ms=1.2"
+https://meesho.com/inter-milan-r-carlos-1995-1996-away-football-jersey/p/c81s4r?_ms=1.2
 
     },
-	  // {
-      // name: "A06:BUFFON PARMA FC",
-      // images: ["images/collarNorFsleeve/A06-01.jpg", "images/collarNorFsleeve/A06-02.jpg", "images/collarNorFsleeve/A06-03.jpg"],
-	  // sizes: ["S","M","L","XL"],
- // meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-full-sleeve-football-jersey/p/bueo6z?_ms=1.2"
-    // },
+	   {
+       name: "A06:BUFFON PARMA FC",
+       images: ["images/collarNorFsleeve/A06-01.jpg", "images/collarNorFsleeve/A06-02.jpg", "images/collarNorFsleeve/A06-03.jpg"],
+	   sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/vintage-champion-parma-fc-2000-01-buffon-goalkeeper-football-jersey/p/c8231n?_ms=1.2"
+
+     },
 	  {
       name: "A07:MARADONA BOCA JUNIORS",
       images: ["images/collarNorFsleeve/A07-01.jpg", "images/collarNorFsleeve/A07-02.jpg", "images/collarNorFsleeve/A07-03.jpg"],
@@ -294,12 +305,13 @@ meeshoUrl: "https://meesho.com/ronaldo-brazil-retrovintagelegends-five-sleeve-co
 meeshoUrl: "https://meesho.com/cruyff-retrovintagelegends-collar-five-sleeve-football-jersey/p/bvz8cb?_ms=1.2"
 
     },
-	  // {
-      // name: "A11:MALDINI ITALY",
-      // images: ["images/collarNorFsleeve/A11-01.jpg", "images/collarNorFsleeve/A11-02.jpg","images/collarNorFsleeve/A11-03.jpg"],
-	  // sizes: ["S","M","L","XL"],
- // meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-full-sleeve-football-jersey/p/bueo6z?_ms=1.2"
-    // },
+	  {
+      name: "A11:MALDINI ITALY",
+      images: ["images/collarNorFsleeve/A11-01.jpg", "images/collarNorFsleeve/A11-02.jpg","images/collarNorFsleeve/A11-03.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/italy-maldini-gucci-special-edition--football-five-sleeve-jersey-with-a-collar/p/c82irp?_ms=1.2"
+
+    },
 	  {
       name: "A12:BALLACK GERMANY",
       images: ["images/collarNorFsleeve/A12-01.jpg", "images/collarNorFsleeve/A12-02.jpg","images/collarNorFsleeve/A12-03.jpg"],
@@ -314,18 +326,20 @@ meeshoUrl: "https://meesho.com/ballack-germany-retrovintagelegends-five-sleeve-c
 meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sleeve-football-jersey/p/bvzqxn?_ms=1.2"
 
     },
-	  // {
-      // name: "A14:F.TORRES",
-      // images: ["images/collarNorFsleeve/A14-01.jpg", "images/collarNorFsleeve/A14-02.jpg"],
-	  // sizes: ["S","M","L","XL"],
- // meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-full-sleeve-football-jersey/p/bueo6z?_ms=1.2"
-    // },
-	  // {
-      // name: "A15:R.CARLOS",
-      // images: ["images/collarNorFsleeve/A15-01.jpg", "images/collarNorFsleeve/A15-02.jpg"],
-	  // sizes: ["S","M","L","XL"],
- // meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-full-sleeve-football-jersey/p/bueo6z?_ms=1.2"
-    // },
+	  {
+      name: "A14:F.TORRES",
+      images: ["images/collarNorFsleeve/A14-01.jpg", "images/collarNorFsleeve/A14-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/ftorres-atltico-madrid-home-five-sleeve-collar-football-jersey/p/c8359c?_ms=1.2"
+
+    },
+	  {
+      name: "A15:R.CARLOS",
+      images: ["images/collarNorFsleeve/A15-01.jpg", "images/collarNorFsleeve/A15-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/r-carlos-real-madrid-1998-99-away-collar-five-sleeve-soccer-jersey/p/c839vr?_ms=1.2"
+
+    },
 	  {
       name: "A16:ZIDANE",
       images: ["images/collarNorFsleeve/A16-01.jpg", "images/collarNorFsleeve/A16-02.jpg"],
@@ -333,11 +347,13 @@ meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sle
 meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sleeve-football-jersey/p/bvzo3o?_ms=1.2"
 
     },
-	  // {
-      // name: "A17:BECKHAM",
-      // images: ["images/collarNorFsleeve/A17-01.jpg", "images/collarNorFsleeve/A17-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	  {
+      name: "A17:BECKHAM",
+      images: ["images/collarNorFsleeve/A17-01.jpg", "images/collarNorFsleeve/A17-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/beckham-manchester-united-1998-1999-home-normal-collar-sleeve-football-jersey/p/c83yu9?_ms=1.2"
+
+    },
 	  {
       name: "A18:MALDINI",
       images: ["images/collarNorFsleeve/A18-01.jpg", "images/collarNorFsleeve/A18-02.jpg"],
@@ -375,15 +391,19 @@ meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sle
 	  // sizes: ["S","M","L","XL"]
     // },
 	// {
-      // name: "A24:C. RONALDO PORTUGAL",
-      // images: ["images/collarNorFsleeve/A24-01.jpg", "images/collarNorFsleeve/A24-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	  // {
-      // name: "A25:LAMPARD CHELSEA",
-      // images: ["images/collarNorFsleeve/A25-01.jpg", "images/collarNorFsleeve/A25-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+      name: "A24:C. RONALDO PORTUGAL",
+      images: ["images/collarNorFsleeve/A24-01.jpg", "images/collarNorFsleeve/A24-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/cronaldo-portugal-vintage-football-jersey/p/c8kbri?_ms=1.2"
+
+    },
+	  {
+      name: "A25:LAMPARD CHELSEA",
+      images: ["images/collarNorFsleeve/A25-01.jpg", "images/collarNorFsleeve/A25-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/frank-lampard-chelsea-2011-12-collar-jersey/p/c8jdga?_ms=1.2"
+
+    },
 	  {
       name: "A26:KAKA AC MILAN",
       images: ["images/collarNorFsleeve/A26-01.jpg", "images/collarNorFsleeve/A26-02.jpg"],
@@ -410,11 +430,13 @@ meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sle
 	  meeshoUrl: "https://meesho.com/zidane-retrovintagelegends-collar-normal-sleeve-football-jersey/p/bw3hhx?_ms=1.2"
 
     },
-	  // {
-      // name: "A30:BECKHAM ENGLAND",
-      // images: ["images/collarNorFsleeve/A30-01.jpg", "images/collarNorFsleeve/A30-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	  {
+      name: "A30:BECKHAM ENGLAND",
+      images: ["images/collarNorFsleeve/A30-01.jpg", "images/collarNorFsleeve/A30-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/manchester-united-2000-01-third-kit-football---beckham-7/p/c8jegw?_ms=1.2"
+
+    },
 	  {
       name: "A31:OWEN NEW CASTLE",
       images: ["images/collarNorFsleeve/A31-01.jpg", "images/collarNorFsleeve/A31-02.jpg"],
@@ -444,24 +466,27 @@ meeshoUrl: "https://meesho.com/newcastle-united-mowen-2007-08-home-football-jers
 	  meeshoUrl: "https://meesho.com/cronaldo-portugal-special-edition-retrovintagelegends-collar-embroidery-five-sleeve-football-jersey/p/bvzi2t?_ms=1.2"
 
     },
-	  // {
-      // name: "A35:KROOS GERMANY",
-      // images: ["images/collarNorFsleeve/A35-01.jpg", "images/collarNorFsleeve/A35-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	  {
+      name: "A35:KROOS GERMANY",
+      images: ["images/collarNorFsleeve/A35-01.jpg", "images/collarNorFsleeve/A35-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/kroos-germany-2010-world-cup-away-collar-five-sleeve-football-jersey/p/c8jexi?_ms=1.2"
+
+    },
 	  {
       name: "A36:F.BECKENBAUER GERMANY 1996",
       images: ["images/collarNorFsleeve/A36-01.jpg", "images/collarNorFsleeve/A36-02.jpg"],
 	  sizes: ["S","M","L","XL"],
 https://meesho.com/germany-football-retro-away-jersey-1996-beckenbauer/p/c7ep2z?_ms=1.2
 
-    }
-	,
-	  // {
-      // name: "A37:M.OWEN LIVERPOOL 93-95",
-      // images: ["images/collarNorFsleeve/A37-01.jpg", "images/collarNorFsleeve/A37-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+    },
+	  {
+      name: "A37:M.OWEN LIVERPOOL 93-95",
+      images: ["images/collarNorFsleeve/A37-01.jpg", "images/collarNorFsleeve/A37-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/1995-96-liverpool-fc-mowen-collar-five-sleeve-jersey/p/c8jfcm?_ms=1.2"
+
+    },
 	  {
       name: "A38:L.MESSI Barcelona 1999-2000",
       images: ["images/collarNorFsleeve/A38-01.jpg", "images/collarNorFsleeve/A38-02.jpg"],
@@ -492,18 +517,20 @@ meeshoUrl: "https://meesho.com/ronaldinho-retrovintagelegends-five-sleeve-footba
 	  // sizes: ["S","M","L","XL"],
  //meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-full-sleeve-football-jersey/p/bueo6z?_ms=1.2"
     // },
-	    // {
-      // name: "B03:IBRAHIMOVIC",
-      // images: ["images/fivesleeve/B03-01.jpg", "images/fivesleeve/B03-02.jpg"],
-	  // sizes: ["S","M","L","XL"],
- // meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-full-sleeve-football-jersey/p/bueo6z?_ms=1.2"
-    // },
-	    // {
-      // name: "B04:IBRAHIMOVIC",
-      // images: ["images/fivesleeve/B04-01.jpg", "images/fivesleeve/B04-02.jpg"],
-	  // sizes: ["S","M","L","XL"],
- // meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-full-sleeve-football-jersey/p/bueo6z?_ms=1.2"
-    // },
+	    {
+      name: "B03:IBRAHIMOVIC",
+      images: ["images/fivesleeve/B03-01.jpg", "images/fivesleeve/B03-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/ibrahmovic-sweden-five-sleeve-retro-football-jersey/p/c8jh3l?_ms=1.2"
+
+    },
+	    {
+      name: "B04:IBRAHIMOVIC",
+      images: ["images/fivesleeve/B04-01.jpg", "images/fivesleeve/B04-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/juventus-2004-05-ibrahmovic-five-sleeve-retro-jersey/p/c8jhln?_ms=1.2"
+
+    },
 	    {
       name: "B05:MESSI",
       images: ["images/fivesleeve/B05-01.jpg", "images/fivesleeve/B05-02.jpg"],
@@ -511,12 +538,14 @@ meeshoUrl: "https://meesho.com/ronaldinho-retrovintagelegends-five-sleeve-footba
 meeshoUrl: "https://meesho.com/fc-barcelona-home-jersey-lmessi2024-25/p/c7m0ne?_ms=1.2"
 
 
+
     },
 	     {
        name: "B06:BALLACK GERMANY",
        images: ["images/fivesleeve/B06-01.jpg", "images/fivesleeve/B06-02.jpg"],
 	   sizes: ["S","M","L","XL"],
-  meeshoUrl: "https://meesho.com/germany-2006-world-cup-away-football-jersey-with-michael-ballack/p/c7ldz0?_ms=1.2"
+meeshoUrl: "https://meesho.com/germany-2006-world-cup-away-football-jersey-with-michael-ballack/p/c7ldz0?_ms=1.2"
+
 
      },
 	    {
@@ -537,14 +566,17 @@ meeshoUrl: "https://meesho.com/germany-premium-retrovintagelegends-five-sleeve-f
       name: "B09:C.RONALDO PORTUGAL",
       images: ["images/fivesleeve/B09-01.jpg", "images/fivesleeve/B09-02.jpg"],
 	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/cronaldo-portugal-retrovintagelegends-five-sleeve-football-jersey/p/bumgs8?_ms=1.2"
+meeshoUrl: "https://meesho.com/portugal-cronaldo-2012-away-football-jersey/p/c7mxtl?_ms=1.2"
+
 
     },
-	    // {
-      // name: "B10:F.TORRES LIVERPOOL",
-      // images: ["images/fivesleeve/B10-01.jpg", "images/fivesleeve/B10-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	    {
+      name: "B10:F.TORRES LIVERPOOL",
+      images: ["images/fivesleeve/B10-01.jpg", "images/fivesleeve/B10-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/torres-liverpool-fc-2007-08-five-sleeve-retro-away-jersey/p/c8jhxn?_ms=1.2"
+
+    },
 	    {
       name: "B11:MALDINI AC MILAN",
       images: ["images/fivesleeve/B11-01.jpg", "images/fivesleeve/B11-02.jpg"],
@@ -552,11 +584,13 @@ meeshoUrl: "https://meesho.com/germany-premium-retrovintagelegends-five-sleeve-f
 	  meeshoUrl: "https://meesho.com/maldini-ac-milan-retrovintagelegends-five-sleeve-football-jersey/p/buo8ms?_ms=1.2"
 
     },
-	    // {
-      // name: "B12:SERGIO RAMOS REAL MADRID",
-      // images: ["images/fivesleeve/B12-01.jpg", "images/fivesleeve/B12-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	    {
+      name: "B12:SERGIO RAMOS REAL MADRID",
+      images: ["images/fivesleeve/B12-01.jpg", "images/fivesleeve/B12-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/sramos-real-madrid-200708-five-sleeve-home-football-jersey/p/c8jibv?_ms=1.2"
+
+    },
 	    {
       name: "B13:MALDINI AC MILAN",
       images: ["images/fivesleeve/B13-01.jpg", "images/fivesleeve/B13-02.jpg"],
@@ -571,11 +605,13 @@ meeshoUrl: "https://meesho.com/germany-premium-retrovintagelegends-five-sleeve-f
 	  meeshoUrl: "https://meesho.com/lionel-messi-retrovintagelegends-five-sleeve-football-jersey/p/bulncp?_ms=1.2"
 
     },
-	    // {
-      // name: "B15:KROOS GERMANY",
-      // images: ["images/fivesleeve/B15-01.jpg", "images/fivesleeve/B15-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	    {
+      name: "B15:KROOS GERMANY",
+      images: ["images/fivesleeve/B15-01.jpg", "images/fivesleeve/B15-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/kroos-germany-1996-away-retro-five-sleeve-football-jersey/p/c8jj9e?_ms=1.2"
+
+    },
 	    {
       name: "B16:MESSI ARGENTINA",
       images: ["images/fivesleeve/B16-01.jpg", "images/fivesleeve/B16-02.jpg"],
@@ -583,11 +619,13 @@ meeshoUrl: "https://meesho.com/germany-premium-retrovintagelegends-five-sleeve-f
 	  meeshoUrl: "https://meesho.com/messi-argentina-retrovintagelegends-five-sleeve-football-jersey/p/bup5yj?_ms=1.2"
 
     },
-	// {
-      // name: "B17:V.PERSIE MANCHESTER UNITED",
-      // images: ["images/fivesleeve/B17-01.jpg", "images/fivesleeve/B17-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	{
+      name: "B17:V.PERSIE MANCHESTER UNITED",
+      images: ["images/fivesleeve/B17-01.jpg", "images/fivesleeve/B17-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/vpersie-manchester-united-2012-13-home-five-sleeve-retro-jersey/p/c8jlob?_ms=1.2"
+
+    },
 	    {
       name: "B18:BALLACK GERMANY",
       images: ["images/fivesleeve/B18-01.jpg", "images/fivesleeve/B18-02.jpg"],
@@ -616,6 +654,7 @@ meeshoUrl: "https://meesho.com/germany-premium-retrovintagelegends-five-sleeve-f
 meeshoUrl: "https://meesho.com/argentina-2006-home-football-jersey-with-lionel-messis--19/p/c7n6i5?_ms=1.2"
 
 
+
     },
 	    {
       name: "B22:BECKHAM REAL MADRID",
@@ -624,16 +663,20 @@ meeshoUrl: "https://meesho.com/argentina-2006-home-football-jersey-with-lionel-m
 	  meeshoUrl: "https://meesho.com/david-beckham-real-madrid-retrovintagelegends-five-sleeve-football-jersey/p/bul1di?_ms=1.2"
 
     },
-	    // {
-      // name: "B23:GERRARD LIVERPOOL",
-      // images: ["images/fivesleeve/B23-01.jpg", "images/fivesleeve/B23-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	    // {
-      // name: "B24:C.RONALDO REAL MADRID",
-      // images: ["images/fivesleeve/B24-01.jpg", "images/fivesleeve/B24-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	    {
+      name: "B23:GERRARD LIVERPOOL",
+      images: ["images/fivesleeve/B23-01.jpg", "images/fivesleeve/B23-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/liverpool-fc-2006-07-gerrard-five-retro-jersey/p/c8jlyn?_ms=1.2"
+
+    },
+	    {
+      name: "B24:C.RONALDO REAL MADRID",
+      images: ["images/fivesleeve/B24-01.jpg", "images/fivesleeve/B24-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/real-madrid-2011-12-ronaldo-five-sleeve-retro-away-jersey/p/c8jm8h?_ms=1.2"
+
+    },
 	{
       name: "B25:C.RONALDO REAL MADRID",
       images: ["images/fivesleeve/B25-01.jpg", "images/fivesleeve/B25-02.jpg"],
@@ -641,11 +684,13 @@ meeshoUrl: "https://meesho.com/argentina-2006-home-football-jersey-with-lionel-m
 	  meeshoUrl: "https://meesho.com/cronaldo-manchester-united-retrovintagelegends-five-sleeve-football-jersey/p/buo40e?_ms=1.2"
 
     },
-	    // {
-      // name: "B26:BECKHAM ENGLAND",
-      // images: ["images/fivesleeve/B26-01.jpg", "images/fivesleeve/B26-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	    {
+      name: "B26:BECKHAM ENGLAND",
+      images: ["images/fivesleeve/B26-01.jpg", "images/fivesleeve/B26-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/manchester-united-2000-2001-beckahm-retro-legends-football-jersey/p/c8jmfh?_ms=1.2"
+
+    },
 	    {
       name: "B27:ROONEY MANCHESTER UNITED",
       images: ["images/fivesleeve/B27-01.jpg", "images/fivesleeve/B27-02.jpg"],
@@ -663,11 +708,13 @@ meeshoUrl: "https://meesho.com/argentina-2006-home-football-jersey-with-lionel-m
       // images: ["images/fivesleeve/B29-01.jpg", "images/fivesleeve/B29-02.jpg"],
 	  // sizes: ["S","M","L","XL"]
     // },
-	    // {
-      // name: "B30:MESSI BARCELONA",
-      // images: ["images/fivesleeve/B30-01.jpg", "images/fivesleeve/B30-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	    {
+      name: "B30:MESSI BARCELONA",
+      images: ["images/fivesleeve/B30-01.jpg", "images/fivesleeve/B30-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/fc-barcelona-lmessi-2008-09-home-reteo-jersey/p/c8jmzk?_ms=1.2"
+
+    },
 	    {
       name: "B31:C.RONALDO SPORTING",
       images: ["images/fivesleeve/B31-01.jpg", "images/fivesleeve/B31-02.jpg"],
@@ -675,16 +722,21 @@ meeshoUrl: "https://meesho.com/argentina-2006-home-football-jersey-with-lionel-m
 	  meeshoUrl: "https://meesho.com/c-ronaldo-sporting-retrovintagelegends-five-sleeve-football-jersey/p/buummy?_ms=1.2"
 
     },
-	    // {
-      // name: "B32:MALDINI AC MILAN",
-      // images: ["images/fivesleeve/B32-01.jpg", "images/fivesleeve/B32-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	// {
-      // name: "B33:MATTHAUS BAYERN MUNIC",
-      // images: ["images/fivesleeve/B33-01.jpg", "images/fivesleeve/B33-02.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	    {
+      name: "B32:MALDINI AC MILAN",
+      images: ["images/fivesleeve/B32-01.jpg", "images/fivesleeve/B32-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/ac-milan-200809-maldini-retro-five-sleeve-jersey/p/c8jn5m?_ms=1.2"
+
+
+    },
+	{
+      name: "B33:MATTHAUS BAYERN MUNIC",
+      images: ["images/fivesleeve/B33-01.jpg", "images/fivesleeve/B33-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/matthaus-bayern-munich-1993-95-retro-vintage-five-sleeve-jersey/p/c8jnax?_ms=1.2"
+
+    },
 	{
       name: "A34:ZIDANE Juvantus",
       images: ["images/fivesleeve/B34-01.jpg", "images/fivesleeve/B34-02.jpg"],
