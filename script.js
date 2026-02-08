@@ -506,13 +506,13 @@ meeshoUrl: "https://meesho.com/beckenbauer-germany-retro-legends-vintage-five-sl
   ],
 
   five: [
-    {
-      name: "B01:RONALDINHO PSG",
-      images: ["images/fivesleeve/B01-01.jpg", "images/fivesleeve/B01-02.jpg"],
-	  sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/ronaldinho-retrovintagelegends-five-sleeve-football-jersey/p/buntis?_ms=1.2"
+    // {
+      // name: "B01:RONALDINHO PSG",
+      // images: ["images/fivesleeve/B01-01.jpg", "images/fivesleeve/B01-02.jpg"],
+	  // sizes: ["S","M","L","XL"],
+// meeshoUrl: "https://meesho.com/ronaldinho-retrovintagelegends-five-sleeve-football-jersey/p/buntis?_ms=1.2"
 
-    },
+    // },
 	    // {
       // name: "B02:RIVALDO FC BARCELONA",
       // images: ["images/fivesleeve/B02-01.jpg", "images/fivesleeve/B02-02.jpg"],
