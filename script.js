@@ -273,7 +273,8 @@ meeshoUrl: "https://meesho.com/david-beckham-england-retrovintagelegends-five-sl
       name: "A05:ZIDANE FRANCE",
       images: ["images/collarNorFsleeve/A05-01.jpg", "images/collarNorFsleeve/A05-02.jpg", "images/collarNorFsleeve/A05-03.jpg"],
 	  sizes: ["S","M","L","XL"],
-https://meesho.com/inter-milan-r-carlos-1995-1996-away-football-jersey/p/c81s4r?_ms=1.2
+meeshoUrl: "https://meesho.com/zidane--france-retrovintagelegends-five-sleeve-collar-football-jersey/p/buv4nr?_ms=1.2"
+
 
     },
 	   {
@@ -390,7 +391,7 @@ meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sle
       // images: ["images/collarNorFsleeve/A23-01.jpg", "images/collarNorFsleeve/A23-02.jpg"],
 	  // sizes: ["S","M","L","XL"]
     // },
-	// {
+	 {
       name: "A24:C. RONALDO PORTUGAL",
       images: ["images/collarNorFsleeve/A24-01.jpg", "images/collarNorFsleeve/A24-02.jpg"],
 	  sizes: ["S","M","L","XL"],
@@ -477,7 +478,8 @@ meeshoUrl: "https://meesho.com/newcastle-united-mowen-2007-08-home-football-jers
       name: "A36:F.BECKENBAUER GERMANY 1996",
       images: ["images/collarNorFsleeve/A36-01.jpg", "images/collarNorFsleeve/A36-02.jpg"],
 	  sizes: ["S","M","L","XL"],
-https://meesho.com/germany-football-retro-away-jersey-1996-beckenbauer/p/c7ep2z?_ms=1.2
+meeshoUrl: "https://meesho.com/beckenbauer-germany-retro-legends-vintage-five-sleeve-football-jersey/p/btnx7h?_ms=1.2"
+
 
     },
 	  {
