@@ -112,133 +112,154 @@ meeshoUrl: "https://meesho.com/2006-08-france-home-football-jersey--zinedine-lon
     {
       name: "C01:RONALDINHO AC MILAN",
       images: ["images/halfsleeve/C01-01.jpg", "images/halfsleeve/C01-02.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/ac-milan-2009-10-ronaldinho-retro-half-sleeve-football-jersey/p/caprdu?_ms=1.2"
+
     },
 	{
       name: "C02:MESSI FC BARCELONA",
       images: ["images/halfsleeve/C02-01.jpg", "images/halfsleeve/C02-02.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/fc-barcelona-lmessi-2016-17-home-normal-sleeve-football-retro-jersey/p/capx5n?_ms=1.2"
+
     },
+	// {
+      // name: "C03:RONALDO MANCHESTER",
+      // images: ["images/halfsleeve/C03-01.jpg", "images/halfsleeve/C03-02.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
 	{
-      name: "C03:RONALDO MANCHESTER",
-      images: ["images/halfsleeve/C03-01.jpg", "images/halfsleeve/C03-02.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C04:C.RONALDO MACHESTER",
+      name: "C04:C.RONALDO MANCHESTER",
       images: ["images/halfsleeve/C04-02.jpg", "images/halfsleeve/C04-01.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/manchester-united-cronaldo-2009-2010-normal-sleeve-retro-football-jersey/p/capzrk?_ms=1.2"
+
     },
 	{
       name: "C05:C.RONALDO REAL MADRID",
       images: ["images/halfsleeve/C05-02.jpg", "images/halfsleeve/C05-01.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/real-madrid-cronaldo-201415-third-kit-dragon-edition-normal-sleeve-retro-football-jersey/p/caqela?_ms=1.2"
+
     },
 	{
       name: "C06:C.RONALDO  JUVANTUS",
      images: ["images/halfsleeve/C06-02.jpg", "images/halfsleeve/C06-01.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/juventus-fc-2018-19-cronaldo-normal-sleeve-retro-jersey/p/caqrsb?_ms=1.2"
+
     },
 	{
       name: "C07:MESSI FC BARCELONA",
       images: ["images/halfsleeve/C07-02.jpg", "images/halfsleeve/C07-01.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/fc-barcelona-201718-lmessi-normal-sleeve-retro-football-jersey/p/caqz8a?_ms=1.2"
+
     },
-	{
-      name: "C08:LAMINE YAMAL BARCELONA",
-     images: ["images/halfsleeve/C08-02.jpg", "images/halfsleeve/C08-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C09:LAMINE YAMAL BARCELONA",
-     images: ["images/halfsleeve/C09-02.jpg", "images/halfsleeve/C09-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C10:MBAPPE REAL MADRID",
-     images: ["images/halfsleeve/C10-02.jpg", "images/halfsleeve/C10-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C11:MBAPPE REAL MADRID",
-      images: ["images/halfsleeve/C11-02.jpg", "images/halfsleeve/C11-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
+	// {
+      // name: "C08:LAMINE YAMAL BARCELONA",
+     // images: ["images/halfsleeve/C08-02.jpg", "images/halfsleeve/C08-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C09:LAMINE YAMAL BARCELONA",
+     // images: ["images/halfsleeve/C09-02.jpg", "images/halfsleeve/C09-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C10:MBAPPE REAL MADRID",
+     // images: ["images/halfsleeve/C10-02.jpg", "images/halfsleeve/C10-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C11:MBAPPE REAL MADRID",
+      // images: ["images/halfsleeve/C11-02.jpg", "images/halfsleeve/C11-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
 	{
       name: "C12:C.RONALDO SPORTING",
       images: ["images/halfsleeve/C12-02.jpg", "images/halfsleeve/C12-01.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/2001-03-sporting-cronaldo-normal-sleeve-retro-jersey/p/car2xj?_ms=1.2"
+
     },
 	{
       name: "C13:BECKHAM ENGLAND",
       images: ["images/halfsleeve/C13-02.jpg", "images/halfsleeve/C13-01.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/david-beckham-england-2004-06-mens-away-normal-sleeve-retro-football-jersey/p/carax3?_ms=1.2"
+
     },
 	{
       name: "C14:R.CARLOS REAL MADRID",
       images: ["images/halfsleeve/C14-02.jpg", "images/halfsleeve/C14-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C15:C.RONALDO MACHESTER",
-     images: ["images/halfsleeve/C15-02.jpg", "images/halfsleeve/C15-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C16:GERRARD LIVERPOOL FC",
-      images: ["images/halfsleeve/C16-02.jpg", "images/halfsleeve/C16-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C17:MESSI FC BARCELONA",
-     images: ["images/halfsleeve/C17-02.jpg", "images/halfsleeve/C17-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C18:C.RONALDO SPORTING",
-    images: ["images/halfsleeve/C18-02.jpg", "images/halfsleeve/C18-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C19:MALDINI ENGLAND",
-     images: ["images/halfsleeve/C19-02.jpg", "images/halfsleeve/C19-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C20:C.RONALDO  JUVANTUS",
-     images: ["images/halfsleeve/C20-02.jpg", "images/halfsleeve/C20-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C21:BECKHAM MANCHESTER",
-     images: ["images/halfsleeve/C21-02.jpg", "images/halfsleeve/C21-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C22:MESSI FC BARCELONA",
-     images: ["images/halfsleeve/C22-02.jpg", "images/halfsleeve/C22-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C23:C.RONALDO MACHESTER",
-      images: ["images/halfsleeve/C23-02.jpg", "images/halfsleeve/C23-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C24:C.RONALDO PORTUGAL",
-     images: ["images/halfsleeve/C24-02.jpg", "images/halfsleeve/C24-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C25:CASILLAS READL MADRID GK",
-     images: ["images/halfsleeve/C25-02.jpg", "images/halfsleeve/C25-01.jpg"],
-	  sizes: ["S","M","L","XL"]
-    },
-	{
-      name: "C26:NEYMER SANTOS",
-     images: ["images/halfsleeve/C26-02.jpg", "images/halfsleeve/C26-01.jpg"],
-	  sizes: ["S","M","L","XL"]
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/real-madrid-rcarlos-200405-away-normal-sleeve-retro--jersey/p/carcyn?_ms=1.2"
+
     }
+	// ,
+	// {
+      // name: "C15:C.RONALDO MANCHESTER",
+     // images: ["images/halfsleeve/C15-02.jpg", "images/halfsleeve/C15-01.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/manchester-united-cronaldo-2008-2009-normal-sleeve-retro-football-jersey/p/cardp7?_ms=1.2"
+
+    // },
+	// {
+      // name: "C16:GERRARD LIVERPOOL FC",
+      // images: ["images/halfsleeve/C16-02.jpg", "images/halfsleeve/C16-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C17:MESSI FC BARCELONA",
+     // images: ["images/halfsleeve/C17-02.jpg", "images/halfsleeve/C17-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C18:C.RONALDO SPORTING",
+    // images: ["images/halfsleeve/C18-02.jpg", "images/halfsleeve/C18-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C19:MALDINI ENGLAND",
+     // images: ["images/halfsleeve/C19-02.jpg", "images/halfsleeve/C19-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C20:C.RONALDO  JUVANTUS",
+     // images: ["images/halfsleeve/C20-02.jpg", "images/halfsleeve/C20-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C21:BECKHAM MANCHESTER",
+     // images: ["images/halfsleeve/C21-02.jpg", "images/halfsleeve/C21-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C22:MESSI FC BARCELONA",
+     // images: ["images/halfsleeve/C22-02.jpg", "images/halfsleeve/C22-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C23:C.RONALDO MACHESTER",
+      // images: ["images/halfsleeve/C23-02.jpg", "images/halfsleeve/C23-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C24:C.RONALDO PORTUGAL",
+     // images: ["images/halfsleeve/C24-02.jpg", "images/halfsleeve/C24-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C25:CASILLAS READL MADRID GK",
+     // images: ["images/halfsleeve/C25-02.jpg", "images/halfsleeve/C25-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // },
+	// {
+      // name: "C26:NEYMER SANTOS",
+     // images: ["images/halfsleeve/C26-02.jpg", "images/halfsleeve/C26-01.jpg"],
+	  // sizes: ["S","M","L","XL"]
+    // }
   ],
 
   collar: [
