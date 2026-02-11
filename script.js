@@ -103,6 +103,20 @@ meeshoUrl: "https://meesho.com/black-real-madrid-david-beckham-2006-07-long-slee
 sizes: ["S","M","L","XL"] ,
 meeshoUrl: "https://meesho.com/2006-08-france-home-football-jersey--zinedine-long-sleeve-zidane/p/c7chht?_ms=1.2"
 
+},
+	    {
+      name: "D16:BARCELONA MESSI",
+ images: ["images/fullsleeve/D16-01.jpg", "images/fullsleeve/D16-02.jpg"]   ,
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/fc-barcelona-lmessi-2016-17-third-kit-long-sleeve-retro-jersey/p/ccj4pl?_ms=1.2"
+
+},
+	    {
+      name: "D17:MANCHESTER UNITED BECKHAM",
+ images: ["images/fullsleeve/D17-01.jpg", "images/fullsleeve/D17-02.jpg"]   ,
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/manchester-united-d-beckham-blue-long-sleeve-retro-football-jersey/p/ccjfo3?_ms=1.2"
+
 }
 
 	
@@ -260,6 +274,21 @@ meeshoUrl: "https://meesho.com/2006-08-france-home-football-jersey--zinedine-lon
      // images: ["images/halfsleeve/C26-02.jpg", "images/halfsleeve/C26-01.jpg"],
 	  // sizes: ["S","M","L","XL"]
     // }
+	,
+	{
+      name: "C27:GERMANY OZIL",
+      images: ["images/halfsleeve/C27-01.jpg", "images/halfsleeve/C27-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/germany-2018-world-cup-ozil-retro-football-jersey/p/cckdke?_ms=1.2"
+
+    },
+	{
+      name: "C28:BECKHAM READL MADRID",
+      images: ["images/halfsleeve/C28-01.jpg", "images/halfsleeve/C28-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/real-madrid-2006-07-d-beckham-home-retro-normal-sleeve-jersey/p/ccki6q?_ms=1.2"
+
+    }
   ],
 
   collar: [
@@ -772,6 +801,49 @@ meeshoUrl: "https://meesho.com/ac-milan-200809-maldini-retro-five-sleeve-jersey/
       images: ["images/fivesleeve/B35-01.jpg", "images/fivesleeve/B35-02.jpg", "images/fivesleeve/B35-03.jpg"],
 	  sizes: ["S","M","L","XL"],
 	  meeshoUrl: "https://meesho.com/cronaldo-manchester-united-retrovintagelegends-five-sleeve-football-jersey/p/bvzboh?_ms=1.2"
+
+    },
+	{
+      name: "A36:ARGENTINA Batistuta",
+      images: ["images/fivesleeve/B36-01.jpg", "images/fivesleeve/B36-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/argentina-1998-gbatistuta-away-five-sleeve-retro-soccer-jersey/p/cckxhq?_ms=1.2"
+
+
+    },
+	{
+      name: "A37:BAYERN MUNIC MULLER",
+      images: ["images/fivesleeve/B37-01.jpg", "images/fivesleeve/B37-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/fc-bayern-munich-muller-five-sleeve-v-neck-jersey/p/ccl7q5?_ms=1.2"
+
+    },
+	{
+      name: "A38:GERMANY BECKENBAUER",
+      images: ["images/fivesleeve/B38-01.jpg", "images/fivesleeve/B38-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/vintage-1992-94-beckenbauer-germany-training-five-sleeve-jersey/p/cclls8?_ms=1.2"
+
+    },
+	{
+      name: "A39:LIVERPOOL TORRES",
+      images: ["images/fivesleeve/B39-01.jpg", "images/fivesleeve/B39-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/liverpool-torres-1993-95-away-five-sleeve-football-jersey/p/cclvty?_ms=1.2"
+
+    },
+	{
+      name: "A40:REAL MADRID RONALDO",
+      images: ["images/fivesleeve/B40-01.jpg", "images/fivesleeve/B40-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/real-madrid-ronaldo-v-neck-five-sleeve-retro-jersey/p/ccm7c6?_ms=1.2"
+
+    },
+	{
+      name: "A41:LIVERPOOL GERRARD",
+      images: ["images/fivesleeve/B41-01.jpg", "images/fivesleeve/B41-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/liverpool-fc-2010-11-gerrard-v-neck-five-sleeve-retro-jersey/p/ccmfvi?_ms=1.2"
 
     }
 	
