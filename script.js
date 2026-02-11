@@ -393,7 +393,7 @@ meeshoUrl: "https://meesho.com/r-carlos-real-madrid-1998-99-away-collar-five-sle
     },
 	  {
       name: "A16:ZIDANE",
-      images: ["images/collarNorFsleeve/A16-01.jpg", "images/collarNorFsleeve/A16-02.jpg"],
+      images: ["images/collarNorFsleeve/A16-01.jpg", "images/collarNorFsleeve/A16-01.jpg"],
 	  sizes: ["S","M","L","XL"],
 meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sleeve-football-jersey/p/bvzo3o?_ms=1.2"
 
