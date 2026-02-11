@@ -818,7 +818,7 @@ meeshoUrl: "https://meesho.com/argentina-1998-gbatistuta-away-five-sleeve-retro-
 meeshoUrl: "https://meesho.com/fc-bayern-munich-muller-five-sleeve-v-neck-jersey/p/ccl7q5?_ms=1.2"
 
     },
-	B
+	{
       name: "B38:GERMANY BECKENBAUER",
       images: ["images/fivesleeve/B38-01.jpg", "images/fivesleeve/B38-02.jpg"],
 	  sizes: ["S","M","L","XL"],
