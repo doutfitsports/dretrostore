@@ -984,7 +984,7 @@ document.querySelectorAll(".tab").forEach(tab => {
 /***********************
  * INIT
  ***********************/
-renderCategory("five");
+renderCategory("half");
 
 window.onload = function () {
   document.getElementById("sizeChartModal").style.display = "none";
