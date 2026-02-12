@@ -897,8 +897,19 @@ function renderCategory(categoryKey) {
 	currentCategory = categoryKey;
   const container = document.getElementById("products");
   container.innerHTML = "";
-
-  const products = [...productsByCategory[categoryKey]].reverse();
+let products = [];
+if (categoryKey === "all") {
+    // merge all categories
+    products = [
+      ...productsByCategory.full,
+      ...productsByCategory.half,
+      ...productsByCategory.collar,
+      ...productsByCategory.five
+    ];
+  } else {
+    products = [...productsByCategory[categoryKey]].reverse();
+  }
+  // const products = [...productsByCategory[categoryKey]].reverse();
 
   products.forEach(p => {
     const sizes = p.sizes && p.sizes.length ? p.sizes : DEFAULT_SIZES;
@@ -984,7 +995,7 @@ document.querySelectorAll(".tab").forEach(tab => {
 /***********************
  * INIT
  ***********************/
-renderCategory("half");
+renderCategory("all");
 
 window.onload = function () {
   document.getElementById("sizeChartModal").style.display = "none";
