@@ -977,7 +977,7 @@ document.querySelectorAll(".tab").forEach(tab => {
   tab.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
     tab.classList.add("active");
-		  document.getElementById("searchInput").value = "";
+		  // document.getElementById("searchInput").value = "";
 
     renderCategory(tab.dataset.category);
   });
