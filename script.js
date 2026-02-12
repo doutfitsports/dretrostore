@@ -977,7 +977,7 @@ document.querySelectorAll(".tab").forEach(tab => {
   tab.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
     tab.classList.add("active");
-		  // document.getElementById("searchInput").value = "";
+		  document.getElementById("searchInput").value = "";
 
     renderCategory(tab.dataset.category);
   });
@@ -1032,7 +1032,17 @@ function searchProducts() {
   const container = document.getElementById("products");
   container.innerHTML = "";
 
-  const products = productsByCategory[currentCategory];
+  if (currentCategory === "all") {
+    // merge all categories
+    products = [
+      ...productsByCategory.full,
+      ...productsByCategory.half,
+      ...productsByCategory.collar,
+      ...productsByCategory.five
+    ];
+  } else {
+    products = [...productsByCategory[currentCategory]].reverse();
+  }
 
   const filtered = products.filter(p =>
     p.name.toLowerCase().includes(keyword)
