@@ -117,6 +117,13 @@ meeshoUrl: "https://meesho.com/fc-barcelona-lmessi-2016-17-third-kit-long-sleeve
 sizes: ["S","M","L","XL"] ,
 meeshoUrl: "https://meesho.com/manchester-united-d-beckham-blue-long-sleeve-retro-football-jersey/p/ccjfo3?_ms=1.2"
 
+},
+	    {
+      name: "D17:NEYMER BARCELONA",
+ images: ["images/fullsleeve/D18-01.jpg", "images/fullsleeve/D18-02.jpg"]   ,
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/barcelona-neymer-jr-2016-17-away-long-sleeve-retro-football-jersey/p/cdigbl?_ms=1.2"
+
 }
 
 	
@@ -551,6 +558,42 @@ meeshoUrl: "https://meesho.com/beckenbauer-germany-retro-legends-vintage-five-sl
       images: ["images/collarNorFsleeve/A39-01.jpg", "images/collarNorFsleeve/A39-02.jpg"],
 	  sizes: ["S","M","L","XL"],
 	  meeshoUrl: "https://meesho.com/batistuta-argentina-retrovintagelegends-collar-five-sleeve-football-jersey/p/bzsrtx?_ms=1.2"
+
+    }
+	,
+	  {
+      name: "A40:AC MILAN RONALDINHO",
+      images: ["images/collarNorFsleeve/A40-01.jpg", "images/collarNorFsleeve/A40-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/special-edition-ac-milan-ronaldinho-jersey-featuring-a-patterned-collar-half-sleeve-jersey/p/cdii82?_ms=1.2"
+
+    },
+	  {
+      name: "A41:AJAX CRUYFF",
+      images: ["images/collarNorFsleeve/A41-01.jpg", "images/collarNorFsleeve/A41-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/ajax-97-98-cruyff-collar-five-sleeve-retro-football-jersey/p/cdij5m?_ms=1.2"
+
+    },
+	  {
+      name: "A42:MANCHESTER RONALDO",
+      images: ["images/collarNorFsleeve/A42-01.jpg", "images/collarNorFsleeve/A42-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/manchester-united-c-ronaldo-2003-05-collar-five-sleeve-retro-jersey/p/cdil10?_ms=1.2"
+
+    },
+	  {
+      name: "A43:ARGENTINA MESSI",
+      images: ["images/collarNorFsleeve/A43-01.jpg", "images/collarNorFsleeve/A43-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/argentina-lmessi-10-collar-five-sleeve-retro-jersey/p/cdink5?_ms=1.2"
+
+    },
+	  {
+      name: "A44:INTER MILAN Batistuta",
+      images: ["images/collarNorFsleeve/A44-01.jpg", "images/collarNorFsleeve/A44-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/inter-milan-2002-03-home-kit-featuring-gabriel-batistuta-collar-five-sleeve-retro-jersey/p/cdioj6?_ms=1.2"
 
     }
   ],
