@@ -436,13 +436,13 @@ meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sle
 	  meeshoUrl: "https://meesho.com/david-beckham-manchester-united-retrovintagelegends-five-sleeve-collar-football-jersey/p/buva3p?_ms=1.2"
 
     },
-	  // {
-      // name: "A22:MALDINI",
-      // images: ["images/collarNorFsleeve/A22-01.jpg", "images/collarNorFsleeve/A22-02.jpg"],
-	  // sizes: ["S","M","L","XL"],
-	  // meeshoUrl: "https://meesho.com/maldini-italy-retrovintagelegends-five-sleeve-collar-football-jersey/p/buz7tb?_ms=1.2"
+	  {
+      name: "A22:MALDINI",
+      images: ["images/collarNorFsleeve/A22-01.jpg", "images/collarNorFsleeve/A22-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/maldini-italy-retrovintagelegends-five-sleeve-collar-football-jersey/p/buz7tb?_ms=1.2"
 
-    // },
+    },
 	  // {
       // name: "A23:F.TORRES",
       // images: ["images/collarNorFsleeve/A23-01.jpg", "images/collarNorFsleeve/A23-02.jpg"],
