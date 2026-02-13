@@ -2,6 +2,43 @@ let currentCategory = "collar";
 
 /* PRODUCTS */
 const productsByCategory = {
+	 accessories: [
+    {
+      name: "AC01:Captain Tighter Shorts",
+      images: ["images/accessories/AC01-01.jpg", "images/accessories/AC01-02.jpg", "images/accessories/AC01-03.jpg"],
+	  sizes: ["S","M","L","XL"] ,
+	  meeshoUrl: "https://meesho.com/premium-quality-compression-tighter-shorts-for-sports-dance-and-gym/p/cd9i9q?_ms=1.2"
+
+    },
+    {
+      name: "AC02:Shorts with Inner tights",
+      images: ["images/accessories/AC02-01.jpg", "images/accessories/AC02-02.jpg", "images/accessories/AC02-03.jpg"],
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/mens-shorts-with-inner-tights--breathable-gymcasual--running-2-in-1-compression-fit/p/cap789?_ms=1.2"
+
+    },
+    {
+      name: "AC03:Bandana",
+      images: ["images/accessories/AC03-01.jpg", "images/accessories/AC03-02.jpg"],
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/men--women-solid-black-multipurpose-bandana--face-cover--head-wrap--neck-gaiter--scarf/p/c75ptd?_ms=1.2"
+
+    },
+    {
+      name: "AC04:Black Uv Protection Arm Sleeve",
+      images: ["images/accessories/AC04-01.jpg", "images/accessories/AC04-02.jpg"],
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/arm-sleeve--hand-sleeve-with-finger-hole-support/p/bs3cko?_ms=1.2"
+
+    },
+    {
+      name: "AC05:Skin Color Uv Protection Arm Sleeve",
+      images: ["images/accessories/AC05-01.jpg", "images/accessories/AC05-02.jpg"],
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/cooling-uv-protection-arm-sleeves-for-men--women--skin-color--free-size--pair-1/p/c75r5k?_ms=1.2"
+
+    }
+],
   full: [
     {
       name: "D01:Messi Barcelona",
