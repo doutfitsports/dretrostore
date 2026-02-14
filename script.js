@@ -255,39 +255,49 @@ meeshoUrl: "https://meesho.com/barcelona-neymer-jr-2016-17-away-long-sleeve-retr
 	  meeshoUrl: "https://meesho.com/real-madrid-rcarlos-200405-away-normal-sleeve-retro--jersey/p/carcyn?_ms=1.2"
 
     }
-	// ,
-	// {
-      // name: "C15:C.RONALDO MANCHESTER",
-     // images: ["images/halfsleeve/C15-02.jpg", "images/halfsleeve/C15-01.jpg"],
-	  // sizes: ["S","M","L","XL"],
-	  // meeshoUrl: "https://meesho.com/manchester-united-cronaldo-2008-2009-normal-sleeve-retro-football-jersey/p/cardp7?_ms=1.2"
+	,
+	{
+      name: "C15:C.RONALDO MANCHESTER",
+     images: ["images/halfsleeve/C15-02.jpg", "images/halfsleeve/C15-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/manchester-united-cronaldo-2008-2009-normal-sleeve-retro-football-jersey/p/cardp7?_ms=1.2"
 
-    // },
-	// {
-      // name: "C16:GERRARD LIVERPOOL FC",
-      // images: ["images/halfsleeve/C16-02.jpg", "images/halfsleeve/C16-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	// {
-      // name: "C17:MESSI FC BARCELONA",
-     // images: ["images/halfsleeve/C17-02.jpg", "images/halfsleeve/C17-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	// {
-      // name: "C18:C.RONALDO SPORTING",
-    // images: ["images/halfsleeve/C18-02.jpg", "images/halfsleeve/C18-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	// {
-      // name: "C19:MALDINI ENGLAND",
-     // images: ["images/halfsleeve/C19-02.jpg", "images/halfsleeve/C19-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	// {
-      // name: "C20:C.RONALDO  JUVANTUS",
-     // images: ["images/halfsleeve/C20-02.jpg", "images/halfsleeve/C20-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+    },
+	{
+      name: "C16:GERRARD LIVERPOOL FC",
+      images: ["images/halfsleeve/C16-02.jpg", "images/halfsleeve/C16-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/liverpool-fc-gerrard-2007-08-football-retro-jersey/p/cfnrrp?_ms=1.2"
+
+    },
+	{
+      name: "C17:MESSI FC BARCELONA",
+     images: ["images/halfsleeve/C17-02.jpg", "images/halfsleeve/C17-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/fc-barcelona-lmessi-2015-2016-third-normal-sleeve-jersey/p/cfnsq6?_ms=1.2"
+
+    },
+	{
+      name: "C18:C.RONALDO SPORTING",
+    images: ["images/halfsleeve/C18-02.jpg", "images/halfsleeve/C18-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/reebok-sporting-lisbon-2002-03-normal-sleeve-away-jersey/p/cfnu0c?_ms=1.2"
+
+    },
+	{
+      name: "C19:MALDINI ENGLAND",
+     images: ["images/halfsleeve/C19-02.jpg", "images/halfsleeve/C19-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/maldini-england-normal-sleeve-retro-jersey/p/cfnv9n?_ms=1.2"
+
+    },
+	{
+      name: "C20:C.RONALDO  JUVANTUS",
+     images: ["images/halfsleeve/C20-02.jpg", "images/halfsleeve/C20-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/cronaldo-juventus-normal-sleeve-retro-jersey/p/cfnya3?_ms=1.2"
+
+    },
 	// {
       // name: "C21:BECKHAM MANCHESTER",
      // images: ["images/halfsleeve/C21-02.jpg", "images/halfsleeve/C21-01.jpg"],
@@ -318,7 +328,7 @@ meeshoUrl: "https://meesho.com/barcelona-neymer-jr-2016-17-away-long-sleeve-retr
      // images: ["images/halfsleeve/C26-02.jpg", "images/halfsleeve/C26-01.jpg"],
 	  // sizes: ["S","M","L","XL"]
     // }
-	,
+	// ,
 	{
       name: "C27:GERMANY OZIL",
       images: ["images/halfsleeve/C27-01.jpg", "images/halfsleeve/C27-02.jpg"],
