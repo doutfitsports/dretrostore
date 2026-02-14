@@ -96,7 +96,7 @@ sizes: ["S","M","L","XL"],
        name: "D09:C.Ronaldo MANCHESTER UNITED",
   images: ["images/fullsleeve/D09-01.jpg", "images/fullsleeve/D09-02.jpg"]   ,
  sizes: ["S","M","L"],
-meeshoUrl: "https://meesho.com/manchester-united-2002-04-home-long-sleeve-c-ronaldo-football-jersey/p/c7yydi?_ms=1.2"
+meeshoUrl: "https://meesho.com/manchester-united-c-ronaldo-2008-long-sleeve-jersey/p/cfnnib?_ms=1.2"
  
  },
 	    {
@@ -941,7 +941,8 @@ if (categoryKey === "all") {
       ...productsByCategory.full,
       ...productsByCategory.half,
       ...productsByCategory.collar,
-      ...productsByCategory.five
+      ...productsByCategory.five,
+	  ...productsByCategory.accessories
     ];
   } else {
     products = [...productsByCategory[categoryKey]].reverse();
@@ -1075,7 +1076,9 @@ function searchProducts() {
       ...productsByCategory.full,
       ...productsByCategory.half,
       ...productsByCategory.collar,
-      ...productsByCategory.five
+      ...productsByCategory.five,
+	  ...productsByCategory.accessories
+
     ];
   } else {
     products = [...productsByCategory[currentCategory]].reverse();
