@@ -298,31 +298,41 @@ meeshoUrl: "https://meesho.com/liverpool-fc-gerrard-2007-08-football-retro-jerse
 	  meeshoUrl: "https://meesho.com/cronaldo-juventus-normal-sleeve-retro-jersey/p/cfnya3?_ms=1.2"
 
     },
-	// {
-      // name: "C21:BECKHAM MANCHESTER",
-     // images: ["images/halfsleeve/C21-02.jpg", "images/halfsleeve/C21-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	// {
-      // name: "C22:MESSI FC BARCELONA",
-     // images: ["images/halfsleeve/C22-02.jpg", "images/halfsleeve/C22-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	// {
-      // name: "C23:C.RONALDO MACHESTER",
-      // images: ["images/halfsleeve/C23-02.jpg", "images/halfsleeve/C23-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	// {
-      // name: "C24:C.RONALDO PORTUGAL",
-     // images: ["images/halfsleeve/C24-02.jpg", "images/halfsleeve/C24-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
-	// {
-      // name: "C25:CASILLAS READL MADRID GK",
-     // images: ["images/halfsleeve/C25-02.jpg", "images/halfsleeve/C25-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // },
+	{
+      name: "C21:BECKHAM MANCHESTER",
+     images: ["images/halfsleeve/C21-02.jpg", "images/halfsleeve/C21-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/manchester-united-david-beckham-98-99-normal-sleeve-jersey/p/cgvojc?_ms=1.2"
+
+    },
+	{
+      name: "C22:MESSI FC BARCELONA",
+     images: ["images/halfsleeve/C22-02.jpg", "images/halfsleeve/C22-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/fc-barcelona-lionel-messi-201819-home-jersey/p/cgvxne?_ms=1.2"
+
+    },
+	{
+      name: "C23:C.RONALDO MACHESTER",
+      images: ["images/halfsleeve/C23-02.jpg", "images/halfsleeve/C23-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/manchester-united-2006-07-retro-football-jersey/p/ch9zed?_ms=1.2"
+
+    },
+	{
+      name: "C24:C.RONALDO PORTUGAL",
+     images: ["images/halfsleeve/C24-02.jpg", "images/halfsleeve/C24-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/portugal-202122-away-normal-sleeve-jersey-ronaldo/p/chanvz?_ms=1.2"
+
+    },
+	{
+      name: "C25:CASILLAS READL MADRID GK",
+     images: ["images/halfsleeve/C25-02.jpg", "images/halfsleeve/C25-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/real-madrid-2010-11-goalkeeper-jersey--iker-casillas-normal-sleeve/p/chb49c?_ms=1.2"
+
+    },
 	// {
       // name: "C26:NEYMER SANTOS",
      // images: ["images/halfsleeve/C26-02.jpg", "images/halfsleeve/C26-01.jpg"],
