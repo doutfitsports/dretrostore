@@ -138,7 +138,8 @@ meeshoUrl: "https://meesho.com/black-real-madrid-david-beckham-2006-07-long-slee
       name: "D15:ZIDANE FRANCE",
  images: ["images/fullsleeve/D15-01.jpg", "images/fullsleeve/D15-02.jpg"]   ,
 sizes: ["S","M","L","XL"] ,
-meeshoUrl: "https://meesho.com/2006-08-france-home-football-jersey--zinedine-long-sleeve-zidane/p/c7chht?_ms=1.2"
+meeshoUrl: "https://meesho.com/france-zidane-vintage-full-sleeve-jersey/p/cia3dy?_ms=1.3"
+
 
 },
 	    {
@@ -156,10 +157,16 @@ meeshoUrl: "https://meesho.com/manchester-united-d-beckham-blue-long-sleeve-retr
 
 },
 	    {
-      name: "D17:NEYMER BARCELONA",
+      name: "D18:NEYMER BARCELONA",
  images: ["images/fullsleeve/D18-01.jpg", "images/fullsleeve/D18-02.jpg"]   ,
 sizes: ["S","M","L","XL"] ,
 meeshoUrl: "https://meesho.com/barcelona-neymer-jr-2016-17-away-long-sleeve-retro-football-jersey/p/cdigbl?_ms=1.2"
+
+},
+      name: "D19:C.RONALOD PORTUGAL PANTHER EDITION",
+ images: ["images/fullsleeve/D19-01.jpg", "images/fullsleeve/D19-02.jpg"]   ,
+sizes: ["S","M","L","XL"] ,
+https://meesho.com/portugal-special-panther-edition-cronaldo-collar-full-sleeve-embroidery-jersey/p/cia6yu?_ms=1.3
 
 }
 
@@ -333,12 +340,14 @@ meeshoUrl: "https://meesho.com/liverpool-fc-gerrard-2007-08-football-retro-jerse
 	  meeshoUrl: "https://meesho.com/real-madrid-2010-11-goalkeeper-jersey--iker-casillas-normal-sleeve/p/chb49c?_ms=1.2"
 
     },
-	// {
-      // name: "C26:NEYMER SANTOS",
-     // images: ["images/halfsleeve/C26-02.jpg", "images/halfsleeve/C26-01.jpg"],
-	  // sizes: ["S","M","L","XL"]
-    // }
-	// ,
+	{
+      name: "C26:NEYMER SANTOS",
+     images: ["images/halfsleeve/C26-02.jpg", "images/halfsleeve/C26-01.jpg"],
+	  sizes: ["S","M","L","XL"],
+	  meeshoUrl: "https://meesho.com/santos-fc-neymar-jr-normal-sleeve/p/chbdd6?_ms=1.2"
+
+    }
+	,
 	{
       name: "C27:GERMANY OZIL",
       images: ["images/halfsleeve/C27-01.jpg", "images/halfsleeve/C27-02.jpg"],
