@@ -163,10 +163,11 @@ sizes: ["S","M","L","XL"] ,
 meeshoUrl: "https://meesho.com/barcelona-neymer-jr-2016-17-away-long-sleeve-retro-football-jersey/p/cdigbl?_ms=1.2"
 
 },
+{
       name: "D19:C.RONALOD PORTUGAL PANTHER EDITION",
  images: ["images/fullsleeve/D19-01.jpg", "images/fullsleeve/D19-02.jpg"]   ,
 sizes: ["S","M","L","XL"] ,
-https://meesho.com/portugal-special-panther-edition-cronaldo-collar-full-sleeve-embroidery-jersey/p/cia6yu?_ms=1.3
+meeshoUrl: "https://meesho.com/portugal-special-panther-edition-cronaldo-collar-full-sleeve-embroidery-jersey/p/cia6yu?_ms=1.3"
 
 }
 
