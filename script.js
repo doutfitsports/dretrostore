@@ -613,13 +613,13 @@ meeshoUrl: "https://meesho.com/beckenbauer-germany-retro-legends-vintage-five-sl
 	  meeshoUrl: "https://meesho.com/1995-96-liverpool-fc-mowen-collar-five-sleeve-jersey/p/c8jfcm?_ms=1.2"
 
     },
-	  {
-      name: "A38:L.MESSI Barcelona 1999-2000",
-      images: ["images/collarNorFsleeve/A38-01.jpg", "images/collarNorFsleeve/A38-02.jpg"],
-	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/l-messi-barcelona-retrovintagelegends-five-sleeve-collar-football-jersey/p/buwbw2?_ms=1.2"
+	  // {
+      // name: "A38:L.MESSI Barcelona 1999-2000",
+      // images: ["images/collarNorFsleeve/A38-01.jpg", "images/collarNorFsleeve/A38-02.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/l-messi-barcelona-retrovintagelegends-five-sleeve-collar-football-jersey/p/buwbw2?_ms=1.2"
 
-    },
+    // },
 	  {
       name: "A39:Batistuta",
       images: ["images/collarNorFsleeve/A39-01.jpg", "images/collarNorFsleeve/A39-02.jpg"],
@@ -774,13 +774,13 @@ meeshoUrl: "https://meesho.com/portugal-cronaldo-2012-away-football-jersey/p/c7m
 	  meeshoUrl: "https://meesho.com/kroos-germany-1996-away-retro-five-sleeve-football-jersey/p/c8jj9e?_ms=1.2"
 
     },
-	    {
-      name: "B16:MESSI ARGENTINA",
-      images: ["images/fivesleeve/B16-01.jpg", "images/fivesleeve/B16-02.jpg"],
-	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/messi-argentina-retrovintagelegends-five-sleeve-football-jersey/p/bup5yj?_ms=1.2"
+	    // {
+      // name: "B16:MESSI ARGENTINA",
+      // images: ["images/fivesleeve/B16-01.jpg", "images/fivesleeve/B16-02.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/messi-argentina-retrovintagelegends-five-sleeve-football-jersey/p/bup5yj?_ms=1.2"
 
-    },
+    // },
 	{
       name: "B17:V.PERSIE MANCHESTER UNITED",
       images: ["images/fivesleeve/B17-01.jpg", "images/fivesleeve/B17-02.jpg"],
@@ -839,13 +839,13 @@ meeshoUrl: "https://meesho.com/argentina-2006-home-football-jersey-with-lionel-m
 	  meeshoUrl: "https://meesho.com/real-madrid-2011-12-ronaldo-five-sleeve-retro-away-jersey/p/c8jm8h?_ms=1.2"
 
     },
-	{
-      name: "B25:C.RONALDO REAL MADRID",
-      images: ["images/fivesleeve/B25-01.jpg", "images/fivesleeve/B25-02.jpg"],
-	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/cronaldo-manchester-united-retrovintagelegends-five-sleeve-football-jersey/p/buo40e?_ms=1.2"
+	// {
+      // name: "B25:C.RONALDO REAL MADRID",
+      // images: ["images/fivesleeve/B25-01.jpg", "images/fivesleeve/B25-02.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/cronaldo-manchester-united-retrovintagelegends-five-sleeve-football-jersey/p/buo40e?_ms=1.2"
 
-    },
+    // },
 	    {
       name: "B26:BECKHAM ENGLAND",
       images: ["images/fivesleeve/B26-01.jpg", "images/fivesleeve/B26-02.jpg"],
@@ -877,13 +877,13 @@ meeshoUrl: "https://meesho.com/argentina-2006-home-football-jersey-with-lionel-m
 	  meeshoUrl: "https://meesho.com/fc-barcelona-lmessi-2008-09-home-reteo-jersey/p/c8jmzk?_ms=1.2"
 
     },
-	    {
-      name: "B31:C.RONALDO SPORTING",
-      images: ["images/fivesleeve/B31-01.jpg", "images/fivesleeve/B31-02.jpg"],
-	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/c-ronaldo-sporting-retrovintagelegends-five-sleeve-football-jersey/p/buummy?_ms=1.2"
+	    // {
+      // name: "B31:C.RONALDO SPORTING",
+      // images: ["images/fivesleeve/B31-01.jpg", "images/fivesleeve/B31-02.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/c-ronaldo-sporting-retrovintagelegends-five-sleeve-football-jersey/p/buummy?_ms=1.2"
 
-    },
+    // },
 	    {
       name: "B32:MALDINI AC MILAN",
       images: ["images/fivesleeve/B32-01.jpg", "images/fivesleeve/B32-02.jpg"],
@@ -967,13 +967,13 @@ function renderCategory(categoryKey) {
 let products = [];
 if (categoryKey === "all") {
     // merge all categories
-    products = [
+    products = sortProductsByNumber([
       ...productsByCategory.full,
       ...productsByCategory.half,
       ...productsByCategory.collar,
       ...productsByCategory.five,
 	  ...productsByCategory.accessories
-    ];
+    ]).reverse();
   } else {
     products = [...productsByCategory[categoryKey]].reverse();
   }
@@ -1102,21 +1102,23 @@ function searchProducts() {
 
   if (currentCategory === "all") {
     // merge all categories
-    products = [
+    products = sortProductsByNumber([
       ...productsByCategory.full,
       ...productsByCategory.half,
       ...productsByCategory.collar,
       ...productsByCategory.five,
 	  ...productsByCategory.accessories
 
-    ];
+    ]);
   } else {
     products = [...productsByCategory[currentCategory]].reverse();
   }
 
-  const filtered = products.filter(p =>
+  const filtered = sortProductsByNumber(
+  products.filter(p =>
     p.name.toLowerCase().includes(keyword)
-  ).reverse();
+  )
+);
 
   if (filtered.length === 0) {
     container.innerHTML = `<p style="text-align:center;">❌ No jerseys found</p>`;
@@ -1170,4 +1172,14 @@ function renderProductCard(p, categoryKey) {
       )">Add to Cart</button>
     </div>
   `;
+}
+function extractProductNumber(name) {
+ const match = name.match(/\d+/); // extract first number found
+  return match ? parseInt(match[0], 10) : 0;
+}
+
+function sortProductsByNumber(products) {
+  return products.sort((a, b) => {
+    return extractProductNumber(a.name) - extractProductNumber(b.name);
+  });
 }
