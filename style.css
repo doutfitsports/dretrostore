@@ -794,3 +794,11 @@ header {
 .buy-btn:hover {
   transform: scale(1.08);
 }
+.category-note {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  margin: 10px 0 5px 0;
+  padding: 6px;
+}
