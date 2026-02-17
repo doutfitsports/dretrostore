@@ -1,5 +1,7 @@
-let currentCategory = "collar";
-
+let currentCategory = "all";
+let allProducts = [];
+let displayedCount = 0;
+const PRODUCTS_PER_LOAD = 20;
 /* PRODUCTS */
 const productsByCategory = {
 	 accessories: [
@@ -963,47 +965,27 @@ meeshoUrl: "https://meesho.com/liverpool-fc-2010-11-gerrard-v-neck-five-sleeve-r
 function renderCategory(categoryKey) {
 	currentCategory = categoryKey;
   const container = document.getElementById("products");
+
+  // Reset
   container.innerHTML = "";
-let products = [];
-if (categoryKey === "all") {
-    // merge all categories
-    products = sortProductsByNumber([
+  displayedCount = 0;
+
+  if (categoryKey === "all") {
+
+    allProducts = sortProductsByNumber([
       ...productsByCategory.full,
       ...productsByCategory.half,
       ...productsByCategory.collar,
       ...productsByCategory.five,
-	  ...productsByCategory.accessories
+      ...productsByCategory.accessories
     ]).reverse();
+
   } else {
-    products = [...productsByCategory[categoryKey]].reverse();
+
+    allProducts = [...productsByCategory[categoryKey]].reverse();
+
   }
-  // const products = [...productsByCategory[categoryKey]].reverse();
-
-  products.forEach(p => {
-    const sizes = p.sizes && p.sizes.length ? p.sizes : DEFAULT_SIZES;
-
-    const sizeOptions = sizes
-      .map(s => `<option value="${s}">${s}</option>`)
-      .join("");
-
-    container.innerHTML += `
-      <div class="card">
-        <div class="slider" data-index="0" data-images='${JSON.stringify(p.images)}'>
-          <img src="${p.images[0]}" onclick="openImageZoom(this.src)">
-          <button class="arrow left" onclick="slide(this,-1)">❮</button>
-          <button class="arrow right" onclick="slide(this,1)">❯</button>
-        </div>
-
-        <h4>${p.name}</h4>
-<a href="${p.meeshoUrl}" 
-   target="_blank" 
-   class="buy-btn">
-   🛒 Buy Now
-</a>
-       
-      </div>
-    `;
-  });
+   loadMoreProducts();
 }
 
 /***********************
@@ -1183,3 +1165,49 @@ function sortProductsByNumber(products) {
     return extractProductNumber(a.name) - extractProductNumber(b.name);
   });
 }
+
+function loadMoreProducts() {
+
+  const container = document.getElementById("products");
+
+  const nextProducts = allProducts.slice(
+    displayedCount,
+    displayedCount + PRODUCTS_PER_LOAD
+  );
+
+  nextProducts.forEach(p => {
+
+    container.innerHTML += `
+      <div class="card">
+        <div class="slider" data-index="0" data-images='${JSON.stringify(p.images)}'>
+          <img src="${p.images[0]}" onclick="openImageZoom(this.src)">
+          <button class="arrow left" onclick="slide(this,-1)">❮</button>
+          <button class="arrow right" onclick="slide(this,1)">❯</button>
+        </div>
+
+        <h4>${p.name}</h4>
+
+        <a href="${p.meeshoUrl}" target="_blank" class="buy-btn">
+          🛒 Buy Now
+        </a>
+
+      </div>
+    `;
+  });
+
+  displayedCount += PRODUCTS_PER_LOAD;
+}
+window.addEventListener("scroll", () => {
+
+  if (
+    window.innerHeight + window.scrollY >=
+    document.body.offsetHeight - 300
+  ) {
+
+    if (displayedCount < allProducts.length) {
+      loadMoreProducts();
+    }
+
+  }
+
+});
