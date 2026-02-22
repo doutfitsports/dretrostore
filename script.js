@@ -629,13 +629,13 @@ meeshoUrl: "https://meesho.com/five-sleeve-collar-germany-retro-football-jersey-
 	  meeshoUrl: "https://meesho.com/1995-96-liverpool-fc-mowen-collar-five-sleeve-jersey/p/c8jfcm?_ms=1.2"
 
     },
-	  // {
-      // name: "A38:L.MESSI Barcelona 1999-2000",
-      // images: ["images/collarNorFsleeve/A38-01.jpg", "images/collarNorFsleeve/A38-02.jpg"],
-	  // sizes: ["S","M","L","XL"],
-	  // meeshoUrl: "https://meesho.com/l-messi-barcelona-retrovintagelegends-five-sleeve-collar-football-jersey/p/buwbw2?_ms=1.2"
+	  {
+      name: "A38:L.MESSI Barcelona 1999-2000",
+      images: ["images/collarNorFsleeve/A38-01.jpg", "images/collarNorFsleeve/A38-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/five-sleeve-collar-retro-barcelona-2008-09-home-football-jersey---messi-19/p/cs7njo?_ms=1.2"
 
-    // },
+    },
 	  {
       name: "A39:Batistuta",
       images: ["images/collarNorFsleeve/A39-01.jpg", "images/collarNorFsleeve/A39-02.jpg"],
@@ -904,13 +904,13 @@ meeshoUrl: "https://meesho.com/argentina-2006-home-football-jersey-with-lionel-m
 	  meeshoUrl: "https://meesho.com/real-madrid-2011-12-ronaldo-five-sleeve-retro-away-jersey/p/c8jm8h?_ms=1.2"
 
     },
-	// {
-      // name: "B25:C.RONALDO REAL MADRID",
-      // images: ["images/fivesleeve/B25-01.jpg", "images/fivesleeve/B25-02.jpg"],
-	  // sizes: ["S","M","L","XL"],
-	  // meeshoUrl: "https://meesho.com/cronaldo-manchester-united-retrovintagelegends-five-sleeve-football-jersey/p/buo40e?_ms=1.2"
+	{
+      name: "B25:C.RONALDO REAL MADRID",
+      images: ["images/fivesleeve/B25-01.jpg", "images/fivesleeve/B25-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/five-sleeve-retro-manchester-united-2007-08-away-jersey---ronaldo-7-black-football-jersey/p/cs7esm?_ms=1.2"
 
-    // },
+    },
 	    {
       name: "B26:BECKHAM ENGLAND",
       images: ["images/fivesleeve/B26-01.jpg", "images/fivesleeve/B26-02.jpg"],
@@ -942,13 +942,12 @@ meeshoUrl: "https://meesho.com/argentina-2006-home-football-jersey-with-lionel-m
 	  meeshoUrl: "https://meesho.com/fc-barcelona-lmessi-2008-09-home-reteo-jersey/p/c8jmzk?_ms=1.2"
 
     },
-	    // {
-      // name: "B31:C.RONALDO SPORTING",
-      // images: ["images/fivesleeve/B31-01.jpg", "images/fivesleeve/B31-02.jpg"],
-	  // sizes: ["S","M","L","XL"],
-	  // meeshoUrl: "https://meesho.com/c-ronaldo-sporting-retrovintagelegends-five-sleeve-football-jersey/p/buummy?_ms=1.2"
-
-    // },
+	    {
+      name: "B31:C.RONALDO SPORTING",
+      images: ["images/fivesleeve/B31-01.jpg", "images/fivesleeve/B31-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/five-sleeve-cristiano-ronaldo-sporting-cp-2002-retro-football-jersey---c-ronaldo-28/p/csa7os?_ms=1.2"
+    },
 	    {
       name: "B32:MALDINI AC MILAN",
       images: ["images/fivesleeve/B32-01.jpg", "images/fivesleeve/B32-02.jpg"],
