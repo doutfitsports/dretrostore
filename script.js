@@ -378,6 +378,27 @@ meeshoUrl: "https://meesho.com/germany-2018-world-cup-ozil-retro-football-jersey
 	  sizes: ["S","M","L","XL"],
 meeshoUrl: "https://meesho.com/real-madrid-2006-07-d-beckham-home-retro-normal-sleeve-jersey/p/ccki6q?_ms=1.2"
 
+    },
+	{
+      name: "C29:BARCELONA MESSI",
+      images: ["images/halfsleeve/C29-01.jpg", "images/halfsleeve/C29-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/normal-sleeve-retro-fc-barcelona-home-jersey-2005-06-season---messi-19-print---classic-blue--red-striped/p/csld1d?_ms=1.2"
+
+    },
+	{
+      name: "C30:ARGENTINA MARADONA",
+      images: ["images/halfsleeve/C30-01.jpg", "images/halfsleeve/C30-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/normal-sleeve-argentina-retro-football-jersey---maradona-10-tribute-special-edition/p/csmjvo?_ms=1.2"
+
+    },
+	{
+      name: "C31:REAL MADRID MARCELO",
+      images: ["images/halfsleeve/C31-01.jpg", "images/halfsleeve/C31-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/normal-sleeve--real-madrid-2006-07-retro-away-football-jersey---marcelo-12---premium-blue/p/csmx1g?_ms=1.2"
+
     }
   ],
 
@@ -726,6 +747,20 @@ meeshoUrl: "https://meesho.com/five-sleeve-collar-the-legends-choice-messi-10-ar
       images: ["images/collarNorFsleeve/A51-01.jpg", "images/collarNorFsleeve/A51-02.jpg"],
 	  sizes: ["S","M","L","XL"],
 meeshoUrl: "https://meesho.com/five-sleeve-collar--italy-1996-away-retro-football-jersey---maldini-3-classic-vintage-kit/p/cqryhz?_ms=1.2"
+
+    },
+	  {
+      name: "A52:BARCELONA MESSI",
+      images: ["images/collarNorFsleeve/A52-01.jpg", "images/collarNorFsleeve/A52-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/five-sleeve-collar-premium-retro-football-jersey---messi-10-printed-blue--red-striped-football-jersey/p/cskj0i?_ms=1.2"
+
+    },
+	  {
+      name: "A53:FRANCE ZIDANE",
+      images: ["images/collarNorFsleeve/A53-01.jpg", "images/collarNorFsleeve/A53-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/five-seeve-collar-retro-france-2006-zidane-10-football-jersey--premium-quality-white-tricolore-striped-fan-edition-jersey/p/csl08w?_ms=1.2"
 
     }
   ],
