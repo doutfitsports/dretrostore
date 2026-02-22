@@ -428,7 +428,7 @@ meeshoUrl: "https://meesho.com/vintage-champion-parma-fc-2000-01-buffon-goalkeep
       name: "A07:MARADONA BOCA JUNIORS",
       images: ["images/collarNorFsleeve/A07-01.jpg", "images/collarNorFsleeve/A07-02.jpg", "images/collarNorFsleeve/A07-03.jpg"],
 	  sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/maradona-boca-juniors-retrovintagelegends-five-sleeve-collar-football-jersey/p/buyee5?_ms=1.2"
+meeshoUrl: "https://meesho.com/five-sleeve-collar-retro-bocco-juniors-maradona-10-football-jersey---premium-blue--yellow-striped-sports-jersey/p/csaf69?_ms=1.3"
 
     },
 	  {
