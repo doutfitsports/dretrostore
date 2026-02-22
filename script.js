@@ -172,6 +172,20 @@ sizes: ["S","M","L","XL"] ,
 meeshoUrl: "https://meesho.com/portugal-special-panther-edition-cronaldo-collar-full-sleeve-embroidery-jersey/p/cia6yu?_ms=1.3"
 
 }
+,
+{
+      name: "D20:ARGENTINA L.MESSI",
+ images: ["images/fullsleeve/D20-01.jpg", "images/fullsleeve/D20-02.jpg"]   ,
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/argentina-2006-retro-full-sleeve-jersey--messi-19-football-tshirt/p/crz3k0?_ms=1.2"
+},
+{
+      name: "D21:ENGLAND DAVID BECKHAM",
+ images: ["images/fullsleeve/D21-01.jpg", "images/fullsleeve/D21-02.jpg"]   ,
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/beckham-7-retro-england-red-long-sleeve-jersey---premium-football-fan-wear/p/cptbg9?_ms=1.2"
+
+}
 
 	
   ],
@@ -399,7 +413,7 @@ meeshoUrl: "https://meesho.com/david-beckham-england-retrovintagelegends-five-sl
       name: "A05:ZIDANE FRANCE",
       images: ["images/collarNorFsleeve/A05-01.jpg", "images/collarNorFsleeve/A05-02.jpg", "images/collarNorFsleeve/A05-03.jpg"],
 	  sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/zidane--france-retrovintagelegends-five-sleeve-collar-football-jersey/p/buv4nr?_ms=1.2"
+meeshoUrl: "https://meesho.com/five-sleeve-collar-france-1998-retro-football-jersey---zidane-10-world-cup-edition/p/crz3tw?_ms=1.2"
 
 
     },
@@ -443,7 +457,7 @@ meeshoUrl: "https://meesho.com/italy-maldini-gucci-special-edition--football-fiv
       name: "A12:BALLACK GERMANY",
       images: ["images/collarNorFsleeve/A12-01.jpg", "images/collarNorFsleeve/A12-02.jpg","images/collarNorFsleeve/A12-03.jpg"],
 	  sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/ballack-germany-retrovintagelegends-five-sleeve-collar-football-jersey/p/buz2mt?_ms=1.2"
+meeshoUrl: "https://meesho.com/five-sleeve-collar-france-1998-retro-football-jersey---zidane-10-world-cup-edition/p/crz3tw?_ms=1.2"
 
     },
 	  {
@@ -604,7 +618,7 @@ meeshoUrl: "https://meesho.com/newcastle-united-mowen-2007-08-home-football-jers
       name: "A36:F.BECKENBAUER GERMANY 1996",
       images: ["images/collarNorFsleeve/A36-01.jpg", "images/collarNorFsleeve/A36-02.jpg"],
 	  sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/beckenbauer-germany-retro-legends-vintage-five-sleeve-football-jersey/p/btnx7h?_ms=1.2"
+meeshoUrl: "https://meesho.com/five-sleeve-collar-germany-retro-football-jersey-1994---beckenbauer-5-print---premium-polyester-jersey-a36/p/cs1mes?_ms=1.2"
 
 
     },
@@ -808,7 +822,7 @@ meeshoUrl: "https://meesho.com/portugal-cronaldo-2012-away-football-jersey/p/c7m
       name: "B20:MALDINI AC MILAN",
       images: ["images/fivesleeve/B20-01.jpg", "images/fivesleeve/B20-02.jpg"],
 	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/maldini-ac-milan-retrovintagelegends-five-sleeve-football-jersey/p/buo7tv?_ms=1.2"
+meeshoUrl: "https://meesho.com/five-sleeve-ac-milan-retro-football-jersey---maldini-3-legendary-edition--premium-quality-sports-jersey/p/crz3uq?_ms=1.2"
 
     },
 	    {
