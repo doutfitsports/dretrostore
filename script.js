@@ -478,7 +478,7 @@ meeshoUrl: "https://meesho.com/italy-maldini-gucci-special-edition--football-fiv
       name: "A12:BALLACK GERMANY",
       images: ["images/collarNorFsleeve/A12-01.jpg", "images/collarNorFsleeve/A12-02.jpg","images/collarNorFsleeve/A12-03.jpg"],
 	  sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/five-sleeve-collar-france-1998-retro-football-jersey---zidane-10-world-cup-edition/p/crz3tw?_ms=1.2"
+meeshoUrl: "https://meesho.com/five-sleeve-collar-germany-retro-football-jersey---ballack-13-black--white/p/crz3sz?_ms=1.2"
 
     },
 	  {
