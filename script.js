@@ -92,7 +92,8 @@ meeshoUrl: "https://meesho.com/real-madrid-cronaldo-embroidery-20172018--jersey/
       name: "D08:C.Ronaldo SPORTING",
  images: ["images/fullsleeve/D08-01.jpg", "images/fullsleeve/D08-02.jpg"]   ,
 sizes: ["S","M","L","XL"],
- meeshoUrl: "https://meesho.com/cristiano-ronaldo-sporting-retrovintagelegends-full-sleeve-football-jersey/p/buekly?_ms=1.2"
+meeshoUrl: "https://meesho.com/cronaldo-sporting-retrovintagelegends-full-sleeve-football-jersey/p/c4g6rf?_ms=1.2"
+
  },
 	     {
        name: "D09:C.Ronaldo MANCHESTER UNITED",
