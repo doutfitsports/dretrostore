@@ -113,7 +113,7 @@ meeshoUrl: "https://meesho.com/cronaldo-real-madrid-dragon-edition-jersey/p/c76b
        name: "D11:OLIVER KHAN",
   images: ["images/fullsleeve/D11-01.jpg", "images/fullsleeve/D11-02.jpg"]   ,
  sizes: ["S","M","L","XL"],
- meeshoUrl: "https://meesho.com/chelsea-fc-201112-ftorres-home-long-sleeved-football-jersey/p/c80w92?_ms=1.2"
+meeshoUrl: "https://meesho.com/bayern-munich-2004-05-goalkeeper-jersey--oliver-kahn/p/c7zyb9?_ms=1.2"
 
   },
 	     {
@@ -127,7 +127,7 @@ meeshoUrl: "https://meesho.com/2012-13-manchester-united-rooney-long-sleeve-home
        name: "D13:F.TORRES",
   images: ["images/fullsleeve/D13-01.jpg", "images/fullsleeve/D13-02.jpg"]   ,
  sizes: ["S","M","L","XL"],
- meeshoUrl: "https://meesho.com/bayern-munich-2004-05-goalkeeper-jersey--oliver-kahn/p/c7zyb9?_ms=1.2"
+meeshoUrl: "https://meesho.com/chelsea-fc-201112-ftorres-home-long-sleeved-football-jersey/p/c80w92?_ms=1.2"
 
   },
 	    {
@@ -505,7 +505,7 @@ meeshoUrl: "https://meesho.com/r-carlos-real-madrid-1998-99-away-collar-five-sle
     },
 	  {
       name: "A16:ZIDANE",
-      images: ["images/collarNorFsleeve/A16-01.jpg", "images/collarNorFsleeve/A16-01.jpg"],
+      images: ["images/collarNorFsleeve/A16-01.jpg", "images/collarNorFsleeve/A16-02.jpg"],
 	  sizes: ["S","M","L","XL"],
 meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sleeve-football-jersey/p/bvzo3o?_ms=1.2"
 
