@@ -536,7 +536,7 @@ meeshoUrl: "https://meesho.com/zidane-france-retrovintagelegends-collar-five-sle
     // },
 	  {
       name: "A21:BECKHAM ENGLAND",
-      images: ["images/collarNorFsleeve/A21-01.jpg", "images/collarNorFsleeve/A22-02.jpg"],
+      images: ["images/collarNorFsleeve/A21-01.jpg", "images/collarNorFsleeve/A21-02.jpg"],
 	  sizes: ["S","M","L","XL"],
 	  meeshoUrl: "https://meesho.com/david-beckham-manchester-united-retrovintagelegends-five-sleeve-collar-football-jersey/p/buva3p?_ms=1.2"
 
