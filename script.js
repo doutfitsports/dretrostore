@@ -5,20 +5,7 @@ const PRODUCTS_PER_LOAD = 20;
 /* PRODUCTS */
 const productsByCategory = {
 	 accessories: [
-    {
-      name: "AC01:Captain Tighter Shorts",
-      images: ["images/accessories/AC01-01.jpg", "images/accessories/AC01-02.jpg", "images/accessories/AC01-03.jpg"],
-	  sizes: ["S","M","L","XL"] ,
-	  meeshoUrl: "https://meesho.com/premium-quality-compression-tighter-shorts-for-sports-dance-and-gym/p/cd9i9q?_ms=1.2"
 
-    },
-    {
-      name: "AC02:Shorts with Inner tights",
-      images: ["images/accessories/AC02-01.jpg", "images/accessories/AC02-02.jpg", "images/accessories/AC02-03.jpg"],
-sizes: ["S","M","L","XL"] ,
-meeshoUrl: "https://meesho.com/mens-shorts-with-inner-tights--breathable-gymcasual--running-2-in-1-compression-fit/p/cap789?_ms=1.2"
-
-    },
     {
       name: "AC03:Bandana",
       images: ["images/accessories/AC03-01.jpg", "images/accessories/AC03-02.jpg"],
@@ -81,13 +68,13 @@ sizes: ["S","M","L","XL"],
  meeshoUrl: "https://meesho.com/real-madrid-2019-20-sergio-ramos-away-jersey-with-long-sleeves/p/c7y2u8?_ms=1.2"
 
   },
-	    {
-      name: "D07:Ronaldo Real Madrid",
- images: ["images/fullsleeve/D07-01.jpg", "images/fullsleeve/D07-02.jpg"]   ,
-sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/real-madrid-cronaldo-embroidery-20172018--jersey/p/c7bnmt?_ms=1.2"
+	    // {
+      // name: "D07:Ronaldo Real Madrid",
+ // images: ["images/fullsleeve/D07-01.jpg", "images/fullsleeve/D07-02.jpg"]   ,
+// sizes: ["S","M","L","XL"],
+// meeshoUrl: "https://meesho.com/real-madrid-cronaldo-embroidery-20172018--jersey/p/c7bnmt?_ms=1.2"
 
- },
+ // },
 	    {
       name: "D08:C.Ronaldo SPORTING",
  images: ["images/fullsleeve/D08-01.jpg", "images/fullsleeve/D08-02.jpg"]   ,
@@ -95,13 +82,13 @@ sizes: ["S","M","L","XL"],
 meeshoUrl: "https://meesho.com/cronaldo-sporting-retrovintagelegends-full-sleeve-football-jersey/p/c4g6rf?_ms=1.2"
 
  },
-	     {
-       name: "D09:C.Ronaldo MANCHESTER UNITED",
-  images: ["images/fullsleeve/D09-01.jpg", "images/fullsleeve/D09-02.jpg"]   ,
- sizes: ["S","M","L"],
-meeshoUrl: "https://meesho.com/manchester-united-c-ronaldo-2008-long-sleeve-jersey/p/cfnnib?_ms=1.2"
+	     // {
+       // name: "D09:C.Ronaldo MANCHESTER UNITED",
+  // images: ["images/fullsleeve/D09-01.jpg", "images/fullsleeve/D09-02.jpg"]   ,
+ // sizes: ["S","M","L"],
+// meeshoUrl: "https://meesho.com/manchester-united-c-ronaldo-2008-long-sleeve-jersey/p/cfnnib?_ms=1.2"
  
- },
+ // },
 	    {
       name: "D10:C.Ronaldo Real Madrid",
  images: ["images/fullsleeve/D10-01.jpg", "images/fullsleeve/D10-02.jpg"]   ,
@@ -193,19 +180,27 @@ meeshoUrl: "https://meesho.com/beckham-7-retro-england-red-long-sleeve-jersey---
 sizes: ["S","M","L","XL"] ,
 meeshoUrl: "https://meesho.com/chelsea-goalkeeper--petr-ech-full-sleeve-retro-jersey-d22/p/defrut?_ms=1.2"
 
+},
+,
+{
+      name: "D23:MALDINI AC MILAN",
+ images: ["images/fullsleeve/D23-01.jpg", "images/fullsleeve/D23-02.jpg"]   ,
+sizes: ["S","M","L","XL"] ,
+meeshoUrl: "https://meesho.com/collar-full-sleeve-maldini-ac-milan-retro-football-jersey-d23/p/eqx48w?_ms=1.2"
+
 }
 
 	
   ],
 
   half: [
-    {
-      name: "C01:RONALDINHO AC MILAN",
-      images: ["images/halfsleeve/C01-01.jpg", "images/halfsleeve/C01-02.jpg"],
-	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/ac-milan-2009-10-ronaldinho-retro-half-sleeve-football-jersey/p/caprdu?_ms=1.2"
+    // {
+      // name: "C01:RONALDINHO AC MILAN",
+      // images: ["images/halfsleeve/C01-01.jpg", "images/halfsleeve/C01-02.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/ac-milan-2009-10-ronaldinho-retro-half-sleeve-football-jersey/p/caprdu?_ms=1.2"
 
-    },
+    // },
 	{
       name: "C02:MESSI FC BARCELONA",
       images: ["images/halfsleeve/C02-01.jpg", "images/halfsleeve/C02-02.jpg"],
@@ -225,13 +220,13 @@ meeshoUrl: "https://meesho.com/chelsea-goalkeeper--petr-ech-full-sleeve-retro-je
 	  meeshoUrl: "https://meesho.com/manchester-united-cronaldo-2009-2010-normal-sleeve-retro-football-jersey/p/capzrk?_ms=1.2"
 
     },
-	{
-      name: "C05:C.RONALDO REAL MADRID",
-      images: ["images/halfsleeve/C05-02.jpg", "images/halfsleeve/C05-01.jpg"],
-	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/real-madrid-cronaldo-201415-third-kit-dragon-edition-normal-sleeve-retro-football-jersey/p/caqela?_ms=1.2"
+	// {
+      // name: "C05:C.RONALDO REAL MADRID",
+      // images: ["images/halfsleeve/C05-02.jpg", "images/halfsleeve/C05-01.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/real-madrid-cronaldo-201415-third-kit-dragon-edition-normal-sleeve-retro-football-jersey/p/caqela?_ms=1.2"
 
-    },
+    // },
 	{
       name: "C06:C.RONALDO  JUVANTUS",
      images: ["images/halfsleeve/C06-02.jpg", "images/halfsleeve/C06-01.jpg"],
@@ -266,13 +261,13 @@ meeshoUrl: "https://meesho.com/chelsea-goalkeeper--petr-ech-full-sleeve-retro-je
       // images: ["images/halfsleeve/C11-02.jpg", "images/halfsleeve/C11-01.jpg"],
 	  // sizes: ["S","M","L","XL"]
     // },
-	{
-      name: "C12:C.RONALDO SPORTING",
-      images: ["images/halfsleeve/C12-02.jpg", "images/halfsleeve/C12-01.jpg"],
-	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/2001-03-sporting-cronaldo-normal-sleeve-retro-jersey/p/car2xj?_ms=1.2"
+	// {
+      // name: "C12:C.RONALDO SPORTING",
+      // images: ["images/halfsleeve/C12-02.jpg", "images/halfsleeve/C12-01.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/2001-03-sporting-cronaldo-normal-sleeve-retro-jersey/p/car2xj?_ms=1.2"
 
-    },
+    // },
 	{
       name: "C13:BECKHAM ENGLAND",
       images: ["images/halfsleeve/C13-02.jpg", "images/halfsleeve/C13-01.jpg"],
@@ -280,14 +275,13 @@ meeshoUrl: "https://meesho.com/chelsea-goalkeeper--petr-ech-full-sleeve-retro-je
 	  meeshoUrl: "https://meesho.com/david-beckham-england-2004-06-mens-away-normal-sleeve-retro-football-jersey/p/carax3?_ms=1.2"
 
     },
-	{
-      name: "C14:R.CARLOS REAL MADRID",
-      images: ["images/halfsleeve/C14-02.jpg", "images/halfsleeve/C14-01.jpg"],
-	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/real-madrid-rcarlos-200405-away-normal-sleeve-retro--jersey/p/carcyn?_ms=1.2"
+	// {
+      // name: "C14:R.CARLOS REAL MADRID",
+      // images: ["images/halfsleeve/C14-02.jpg", "images/halfsleeve/C14-01.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/real-madrid-rcarlos-200405-away-normal-sleeve-retro--jersey/p/carcyn?_ms=1.2"
 
-    }
-	,
+    // },
 	{
       name: "C15:C.RONALDO MANCHESTER",
      images: ["images/halfsleeve/C15-02.jpg", "images/halfsleeve/C15-01.jpg"],
@@ -358,28 +352,27 @@ meeshoUrl: "https://meesho.com/liverpool-fc-gerrard-2007-08-football-retro-jerse
 	  meeshoUrl: "https://meesho.com/portugal-202122-away-normal-sleeve-jersey-ronaldo/p/chanvz?_ms=1.2"
 
     },
-	{
-      name: "C25:CASILLAS READL MADRID GK",
-     images: ["images/halfsleeve/C25-02.jpg", "images/halfsleeve/C25-01.jpg"],
-	  sizes: ["S","M","L","XL"],
-	  meeshoUrl: "https://meesho.com/real-madrid-2010-11-goalkeeper-jersey--iker-casillas-normal-sleeve/p/chb49c?_ms=1.2"
+	// {
+      // name: "C25:CASILLAS READL MADRID GK",
+     // images: ["images/halfsleeve/C25-02.jpg", "images/halfsleeve/C25-01.jpg"],
+	  // sizes: ["S","M","L","XL"],
+	  // meeshoUrl: "https://meesho.com/real-madrid-2010-11-goalkeeper-jersey--iker-casillas-normal-sleeve/p/chb49c?_ms=1.2"
 
-    },
+    // },
 	{
       name: "C26:NEYMER SANTOS",
      images: ["images/halfsleeve/C26-02.jpg", "images/halfsleeve/C26-01.jpg"],
 	  sizes: ["S","M","L","XL"],
 	  meeshoUrl: "https://meesho.com/santos-fc-neymar-jr-normal-sleeve/p/chbdd6?_ms=1.2"
 
-    }
-	,
-	{
-      name: "C27:GERMANY OZIL",
-      images: ["images/halfsleeve/C27-01.jpg", "images/halfsleeve/C27-02.jpg"],
-	  sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/germany-2018-world-cup-ozil-retro-football-jersey/p/cckdke?_ms=1.2"
-
     },
+	// {
+      // name: "C27:GERMANY OZIL",
+      // images: ["images/halfsleeve/C27-01.jpg", "images/halfsleeve/C27-02.jpg"],
+	  // sizes: ["S","M","L","XL"],
+// meeshoUrl: "https://meesho.com/germany-2018-world-cup-ozil-retro-football-jersey/p/cckdke?_ms=1.2"
+
+    // },
 	{
       name: "C28:BECKHAM READL MADRID",
       images: ["images/halfsleeve/C28-01.jpg", "images/halfsleeve/C28-02.jpg"],
@@ -401,13 +394,13 @@ meeshoUrl: "https://meesho.com/normal-sleeve-retro-fc-barcelona-home-jersey-2005
 meeshoUrl: "https://meesho.com/normal-sleeve-argentina-retro-football-jersey---maradona-10-tribute-special-edition/p/csmjvo?_ms=1.2"
 
     },
-	{
-      name: "C31:REAL MADRID MARCELO",
-      images: ["images/halfsleeve/C31-01.jpg", "images/halfsleeve/C31-02.jpg"],
-	  sizes: ["S","M","L","XL"],
-meeshoUrl: "https://meesho.com/normal-sleeve--real-madrid-2006-07-retro-away-football-jersey---marcelo-12---premium-blue/p/csmx1g?_ms=1.2"
+	// {
+      // name: "C31:REAL MADRID MARCELO",
+      // images: ["images/halfsleeve/C31-01.jpg", "images/halfsleeve/C31-02.jpg"],
+	  // sizes: ["S","M","L","XL"],
+// meeshoUrl: "https://meesho.com/normal-sleeve--real-madrid-2006-07-retro-away-football-jersey---marcelo-12---premium-blue/p/csmx1g?_ms=1.2"
 
-    },
+    // },
 	{
       name: "C32:OZIL ARSENAL",
       images: ["images/halfsleeve/C32-01.jpg", "images/halfsleeve/C32-02.jpg"],
@@ -419,7 +412,21 @@ meeshoUrl: "https://meesho.com/half-sleeve-arsenal-201718-ozil-legndz-jersey-c32
       name: "C33:NEYMER BRAZIL",
       images: ["images/halfsleeve/C33-01.jpg", "images/halfsleeve/C33-02.jpg"],
 	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/normal-sleeve-gerrard-liverpool-retro-jersey-c34/p/eqx6m6?_ms=1.2"
+
+    },
+	{
+      name: "C34:GERRARD LIVERPOOL",
+      images: ["images/halfsleeve/C34-01.jpg", "images/halfsleeve/C34-02.jpg"],
+	  sizes: ["S","M","L","XL"],
 meeshoUrl: "https://meesho.com/normal-sleeve-brazil-neymer-legendz-jersey--c33/p/dfivuq?_ms=1.2"
+
+    },
+	{
+      name: "C33:SERGIO RAMOS REAL MADRID",
+      images: ["images/halfsleeve/C35-01.jpg", "images/halfsleeve/C35-02.jpg"],
+	  sizes: ["S","M","L","XL"],
+meeshoUrl: "https://meesho.com/normal-sleeve-sergio-ramos-real-madrid-football-jersey-c35/p/et350f?_ms=1.2"
 
     }
   ],
