@@ -181,7 +181,6 @@ sizes: ["S","M","L","XL"] ,
 meeshoUrl: "https://meesho.com/chelsea-goalkeeper--petr-ech-full-sleeve-retro-jersey-d22/p/defrut?_ms=1.2"
 
 },
-,
 {
       name: "D23:MALDINI AC MILAN",
  images: ["images/fullsleeve/D23-01.jpg", "images/fullsleeve/D23-02.jpg"]   ,
